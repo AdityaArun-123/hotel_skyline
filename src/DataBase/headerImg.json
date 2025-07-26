@@ -1,0 +1,26 @@
+[
+    {
+        "id" : 1,
+        "src" : "/Gallery/Header Image/header-backgroung-img-1.jpg",
+        "desc" : "your gateway to comfort and convenience",
+        "alt" : ""
+    },
+    {
+        "id" : 2,
+        "src" : "/Gallery/Header Image/header-backgroung-img-2.jpg",
+        "desc" : "stay once, carry memories forever",
+        "alt" : ""
+    },
+    {
+        "id" : 3,
+        "src" : "/Gallery/Header Image/header-backgroung-img-3.jpeg",
+        "desc" : "make yourself at home in our hotel",
+        "alt" : ""
+    },
+    {
+        "id" : 4,
+        "src" : "/Gallery/Header Image/header-backgroung-img-4.jpg",
+        "desc" : "enjoy moments before they become memories",
+        "alt" : ""
+    }
+]

@@ -1,0 +1,667 @@
+[
+    {
+        "id": 1,
+        "room_name": "Deluxe Room - Mall road facing with Bathtub",
+        "room_images" : [
+            {
+                "src" : "/Gallery/Deluxe Room - Mall road facing with Bathtub/Deluxe Room - Mall road facing with Bathtub img 1.avif"
+            },
+            {
+                "src" : "/Gallery/Deluxe Room - Mall road facing with Bathtub/Deluxe Room - Mall road facing with Bathtub img 2.avif"
+            },
+            {
+                "src" : "/Gallery/Deluxe Room - Mall road facing with Bathtub/Deluxe Room - Mall road facing with Bathtub img 3.avif"
+            },
+            {
+                "src" : "/Gallery/Deluxe Room - Mall road facing with Bathtub/Deluxe Room - Mall road facing with Bathtub img 4.avif"
+            },
+            {
+                "src" : "/Gallery/Deluxe Room - Mall road facing with Bathtub/Deluxe Room - Mall road facing with Bathtub img 5.avif"
+            },
+            {
+                "src" : "/Gallery/Deluxe Room - Mall road facing with Bathtub/Deluxe Room - Mall road facing with Bathtub img 6.avif"
+            },
+            {
+                "src" : "/Gallery/Deluxe Room - Mall road facing with Bathtub/Deluxe Room - Mall road facing with Bathtub img 7.avif"
+            },
+            {
+                "src" : "/Gallery/Deluxe Room - Mall road facing with Bathtub/Deluxe Room - Mall road facing with Bathtub img 8.avif"
+            },
+            {
+                "src" : "/Gallery/Deluxe Room - Mall road facing with Bathtub/Deluxe Room - Mall road facing with Bathtub img 9.avif"
+            },
+            {
+                "src" : "/Gallery/Deluxe Room - Mall road facing with Bathtub/Deluxe Room - Mall road facing with Bathtub img 10.avif"
+            },
+            {
+                "src" : "/Gallery/Deluxe Room - Mall road facing with Bathtub/Deluxe Room - Mall road facing with Bathtub img 11.avif"
+            },
+            {
+                "src" : "/Gallery/Deluxe Room - Mall road facing with Bathtub/Deluxe Room - Mall road facing with Bathtub img 12.avif"
+            }
+        ],
+        "room_des": "The Hotel has a Swiss Chalet style sloping roof structure. Deluxe rooms are on the 4th floor (with straight ceilings) or 5th floor (with sloping chalet style ceilings). Other than style of ceiling - room sizes and amenities are identical across all Deluxe rooms. These would be allocated to guest as per availability and entertaining any preference on this matter would not be possible.Rooms are heated in winter (heaters)",
+        "room_featues": [
+            {
+                "feature_name" : "375 sq.ft",
+                "featues_img" : "/Gallery/area-modified.png"
+            },
+            {
+                "feature_name" : "City View",
+                "featues_img" : "/Gallery/view icon.png"
+            },
+            {
+                "feature_name" : "King Bed",
+                "featues_img" : "/Gallery/bed icon.png"
+            }
+        ],
+        "basic_room_amenities" : ["Heater", "Wi-Fi", "Mineral Water - additional charge", "Daily Housekeeping", "Bathroom", "24-hour In-room Dining"],
+        "rooms_amenities": [
+            {
+                "amenities_category": "Popular with Guests",
+                "amenities": ["Heater", "Wi - Fi", "Mineral Water - additional charge", "Daily Housekeeping", "Bathroom", "24 - hour In - room Dining", "24 - hour Room Service"]
+            },
+            {
+                "amenities_category": "Room Features",
+                "amenities": ["Charging Points", "Closet", "Seating Area", "Mini Frdge", "Chair", "Centre Table", "Work Desk", "Blackout Curtains", "Telephone"]
+            },
+            {
+                "amenities_category": "Beds and Blanket",
+                "amenities": ["Woollen Blanket"]
+            },
+            {
+                "amenities_category": "Safety and Security",
+                "amenities": ["Electronic Safe"]
+            },
+            {
+                "amenities_category": "Media and Entertainment",
+                "amenities": ["TV"]
+            },
+            {
+                "amenities_category": "Kitchen and Appliances",
+                "amenities": ["Refrigerator"]
+            },
+            {
+                "amenities_category": "Bathroom",
+                "amenities": ["Shaving Mirror", "Bathtub", "Hairdryer", "Bubble Bath", "Geyser/Water Heater", "Shower Cap", "Slippers", "Western Toilet Seat", "Bathroom Phone", "Hot & Cold Water", "Toiletries"]
+            },
+            {
+                "amenities_category": "Other Facilities",
+                "amenities": ["Newspaper", "Ceiling Fan", "Kettle"]
+            }
+        ],
+        "room_price_card" : [
+            {
+                "price_card_name" : "Room With Free Cancellation",
+                "old_price" : "9,235",
+                "new_price" : "5,030",
+                "tax_price" : "1,179",
+                "details" : [
+                    "10 % Discount On Laundry",
+                    "10 % Discount On Salon",
+                    "No meals included",
+                    "Free Cancellation till 24 hrs before check in"
+                ]
+            },
+            {
+                "price_card_name" : "Room With Free Cancellation | Breakfast only",
+                "old_price" : "11,435",
+                "new_price" : "6,091",
+                "tax_price" : "1,938",
+                "details" : [
+                    "10 % Discount On Laundry",
+                    "10 % Discount On Spa",
+                    "Free Breakfast",
+                    "Free Cancellation till 24 hrs before check in"
+                ]
+            },
+            {
+                "price_card_name" : "Room With Free Cancellation | Breakfast + Lunch/Dinner",
+                "old_price" : "14,835",
+                "new_price" : "8,544",
+                "tax_price" : "2,515",
+                "details" : [
+                    "10 % Discount On Laundry",
+                    "10 % Discount On Spa",
+                    "10 % Discount On Salon",
+                    "Complimentary Breakfast",
+                    "Complimentary Fixed Menu Dinner",
+                    "Free Cancellation till 24 hrs before check in"
+                ]
+            }
+        ],
+        "room_starting_price" : 5500
+    },
+    {
+        "id": 2,
+        "room_name": "Luxury rooms with Balcony (Limited View) and Bathtub",
+        "room_images" : [
+            {
+                "src" : "/Gallery/Luxury rooms with Balcony (Limited View) and Bathtub/Luxury rooms with Balcony (Limited View) and Bathtub img 1.avif"
+            },
+            {
+                "src" : "/Gallery/Luxury rooms with Balcony (Limited View) and Bathtub/Luxury rooms with Balcony (Limited View) and Bathtub img 2.avif"
+            },
+            {
+                "src" : "/Gallery/Luxury rooms with Balcony (Limited View) and Bathtub/Luxury rooms with Balcony (Limited View) and Bathtub img 3.avif"
+            },
+            {
+                "src" : "/Gallery/Luxury rooms with Balcony (Limited View) and Bathtub/Luxury rooms with Balcony (Limited View) and Bathtub img 4.avif"
+            },
+            {
+                "src" : "/Gallery/Luxury rooms with Balcony (Limited View) and Bathtub/Luxury rooms with Balcony (Limited View) and Bathtub img 5.avif"
+            },
+            {
+                "src" : "/Gallery/Luxury rooms with Balcony (Limited View) and Bathtub/Luxury rooms with Balcony (Limited View) and Bathtub img 6.avif"
+            },
+            {
+                "src" : "/Gallery/Luxury rooms with Balcony (Limited View) and Bathtub/Luxury rooms with Balcony (Limited View) and Bathtub img 7.avif"
+            },
+            {
+                "src" : "/Gallery/Luxury rooms with Balcony (Limited View) and Bathtub/Luxury rooms with Balcony (Limited View) and Bathtub img 8.avif"
+            },
+            {
+                "src" : "/Gallery/Luxury rooms with Balcony (Limited View) and Bathtub/Luxury rooms with Balcony (Limited View) and Bathtub img 9.avif"
+            },
+            {
+                "src" : "/Gallery/Luxury rooms with Balcony (Limited View) and Bathtub/Luxury rooms with Balcony (Limited View) and Bathtub img 10.avif"
+            },
+            {
+                "src" : "/Gallery/Luxury rooms with Balcony (Limited View) and Bathtub/Luxury rooms with Balcony (Limited View) and Bathtub img 11.avif"
+            }
+        ],
+        "room_des": "Luxury rooms with Balcony (Limited View)",
+        "room_featues": [
+            {
+                "feature_name": "200 sq.ft",
+                "featues_img": "/Gallery/area-modified.png"
+            },
+            {
+                "feature_name": "Valley View",
+                "featues_img": "/Gallery/view icon.png"
+            },
+            {
+                "feature_name": "Double Bed",
+                "featues_img": "/Gallery/bed icon.png"
+            }
+        ],
+        "basic_room_amenities" : ["Bathtub", "Balcony"],
+        "rooms_amenities": [
+            {
+                "amenities_category": "Popular with Guests",
+                "amenities": ["Heater", "Wi-Fi", "Iron/Ironing Board", "Room Service", "Mineral Water", "Laundry Service", "Housekeeping", "In-room Dining", "Bathroom"]
+            },
+            {
+                "amenities_category": "Room Features",
+                "amenities": ["Charging Points", "Telephone", "Closet", "Mini Fridge", "Mirror", "Hangers", "Chair", "Clothes Rack", "Centre Table", "Blackout Curtains", "Wooden Floors"]
+            },
+            {
+                "amenities_category": "Beds and Blanket",
+                "amenities": ["Cushions", "Blanket", "Pillows"]
+            },
+            {
+                "amenities_category": "Safety and Security",
+                "amenities": ["Safe"]
+            },
+            {
+                "amenities_category": "Media and Entertainment",
+                "amenities": ["TV"]
+            },
+            {
+                "amenities_category": "Bathroom",
+                "amenities": ["Shaving Mirror", "Hairdryer", "Towels", "Shower", "Geyser/Water Heater", "Toiletries", "Western Toilet Seat", "Bathroom Phone", "Dustbins", "Toilet Paper", "Hot & Cold Water"]
+            },
+            {
+                "amenities_category": "Other Facilities",
+                "amenities": ["Newspaper", "Ceiling Fan", "Kettle", "Magnifying Glass"]
+            }
+        ],
+        "room_price_card" : [
+            {
+                "price_card_name" : "Room With Free Cancellation",
+                "old_price" : "9,985",
+                "new_price" : "5,737",
+                "tax_price" : "1,275",
+                "details" : [
+                    "10 % Discount On Laundry",
+                    "10 % Discount On Salon",
+                    "10 % Discount On Spa",
+                    "No meals included",
+                    "Free Cancellation till 24 hrs before check in"
+                ]
+            },
+            {
+                "price_card_name" : "Room With Free Cancellation | Breakfast only",
+                "old_price" : "12,185",
+                "new_price" : "7,019",
+                "tax_price" : "2,065",
+                "details" : [
+                    "10 % Discount On Laundry",
+                    "10 % Discount On Salon",
+                    "10 % Discount On Spa",
+                    "Free Breakfast",
+                    "Free Cancellation till 24 hrs before check in"
+                ]
+            },
+            {
+                "price_card_name" : "Room With Free Cancellation | Breakfast + Lunch/Dinner",
+                "old_price" : "15,585",
+                "new_price" : "8,977",
+                "tax_price" : "2,642",
+                "details" : [
+                    "10 % Discount On Laundry",
+                    "10 % Discount On Spa",
+                    "10 % Discount On Salon",
+                    "Complimentary Breakfast",
+                    "Complimentary Fixed Menu Dinner",
+                    "Free Cancellation till 24 hrs before check in"
+                ]
+            }
+        ],
+        "room_starting_price" : 5880
+    },
+    {
+        "id": 3,
+        "room_name": "Super Deluxe Room with Small Balcony and Bathtub",
+        "room_images" : [
+            {
+                "src" : "/Gallery/Super Deluxe Room with Small Balcony and Bathtub/Super Deluxe Room with Small Balcony and Bathtub img 1.avif"
+            },
+            {
+                "src" : "/Gallery/Super Deluxe Room with Small Balcony and Bathtub/Super Deluxe Room with Small Balcony and Bathtub img 2.avif"
+            },
+            {
+                "src" : "/Gallery/Super Deluxe Room with Small Balcony and Bathtub/Super Deluxe Room with Small Balcony and Bathtub img 3.avif"
+            },
+            {
+                "src" : "/Gallery/Super Deluxe Room with Small Balcony and Bathtub/Super Deluxe Room with Small Balcony and Bathtub img 4.avif"
+            },
+            {
+                "src" : "/Gallery/Super Deluxe Room with Small Balcony and Bathtub/Super Deluxe Room with Small Balcony and Bathtub img 5.avif"
+            },
+            {
+                "src" : "/Gallery/Super Deluxe Room with Small Balcony and Bathtub/Super Deluxe Room with Small Balcony and Bathtub img 6.avif"
+            },
+            {
+                "src" : "/Gallery/Super Deluxe Room with Small Balcony and Bathtub/Super Deluxe Room with Small Balcony and Bathtub img 7.avif"
+            },
+            {
+                "src" : "/Gallery/Super Deluxe Room with Small Balcony and Bathtub/Super Deluxe Room with Small Balcony and Bathtub img 8.avif"
+            },
+            {
+                "src" : "/Gallery/Super Deluxe Room with Small Balcony and Bathtub/Super Deluxe Room with Small Balcony and Bathtub img 9.avif"
+            },
+            {
+                "src" : "/Gallery/Super Deluxe Room with Small Balcony and Bathtub/Super Deluxe Room with Small Balcony and Bathtub img 10.avif"
+            },
+            {
+                "src" : "/Gallery/Super Deluxe Room with Small Balcony and Bathtub/Super Deluxe Room with Small Balcony and Bathtub img 11.avif"
+            },
+            {
+                "src" : "/Gallery/Super Deluxe Room with Small Balcony and Bathtub/Super Deluxe Room with Small Balcony and Bathtub img 12.avif"
+            }
+        ],
+        "room_des": "The room boasts valley views and a dining area. After a hectic day, tune in to the latest movies or shows on the 32-inch flat screen TV. De-stress and refresh in the ensuite bathroom featuring An Essence bath amenities, a bathtub, walk-in shower, granite flooring.Rooms are heated in winter (heaters)",
+        "room_featues": [
+            {
+                "feature_name": "375 sq.ft",
+                "featues_img": "/Gallery/area-modified.png"
+            },
+            {
+                "feature_name": "Valley View",
+                "featues_img": "/Gallery/view icon.png"
+            },
+            {
+                "feature_name": "King Bed",
+                "featues_img": "/Gallery/bed icon.png"
+            }
+        ],
+        "basic_room_amenities" : ["Bathtub", "Balcony"],
+        "rooms_amenities": [
+            {
+                "amenities_category": "Popular with Guests",
+                "amenities": ["Heater", "Wi - Fi", "Iron/Ironing Board", "Mineral Water - additional charge", "Daily Housekeeping", "Bathroom", "24 - hour In - room Dining", "24 - hour Room Service", "Laundry Service"]
+            },
+            {
+                "amenities_category": "Room Features",
+                "amenities": ["Charging Points", "Closet", "Mirror", "Hangers", "Mini Fridge", "Chair", "Centre Table", "Clothes Rack", "Blackout Curtains", "Telephone", "Wooden Floors"]
+            },
+            {
+                "amenities_category": "Beds and Blanket",
+                "amenities": ["Cushions", "Blanket", "Pillows"]
+            },
+            {
+                "amenities_category": "Safety and Security",
+                "amenities": ["Safe"]
+            },
+            {
+                "amenities_category": "Media and Entertainment",
+                "amenities": ["TV"]
+            },
+            {
+                "amenities_category": "Bathroom",
+                "amenities": ["Shaving Mirror", "Towels", "Hairdryer", "Dustbins", "Geyser/Water Heater", "Shower", "Toilet Paper", "Western Toilet Seat", "Bathroom Phone", "Hot & Cold Water", "Toiletries"]
+            },
+            {
+                "amenities_category": "Other Facilities",
+                "amenities": ["Newspaper", "Ceiling Fan", "Kettle", "Magnifying Glass"]
+            }
+        ],
+        "room_price_card" : [
+            {
+                "price_card_name" : "Room With Free Cancellation",
+                "old_price" : "9,985",
+                "new_price" : "5,737",
+                "tax_price" : "1,275",
+                "details" : [
+                    "10 % Discount On Laundry",
+                    "10 % Discount On Salon",
+                    "No meals included",
+                    "Free Cancellation till 24 hrs before check in"
+                ]
+            },
+            {
+                "price_card_name" : "Room With Free Cancellation | Breakfast only",
+                "old_price" : "12,185",
+                "new_price" : "7,091",
+                "tax_price" : "2,065",
+                "details" : [
+                    "10 % Discount On Laundry",
+                    "10 % Discount On Salon",
+                    "Free Breakfast",
+                    "Free Cancellation till 24 hrs before check in"
+                ]
+            },
+            {
+                "price_card_name" : "Room With Free Cancellation | Breakfast + Lunch/Dinner",
+                "old_price" : "15,585",
+                "new_price" : "8,977",
+                "tax_price" : "2,642",
+                "details" : [
+                    "10 % Discount On Laundry",
+                    "10 % Discount On Salon",
+                    "Complimentary Breakfast",
+                    "Complimentary Fixed Menu Dinner",
+                    "Free Cancellation till 24 hrs before check in"
+                ]
+            }
+        ],
+        "room_starting_price" : 5990
+    },
+    {
+        "id": 4,
+        "room_name": "Premium Room with Large Balcony and Bathtub",
+        "room_images" : [
+            {
+                "src" : "/Gallery/Premium Room with Large Balcony and Bathtub/Premium Room with Large Balcony and Bathtub img 1.avif"
+            },
+            {
+                "src" : "/Gallery/Premium Room with Large Balcony and Bathtub/Premium Room with Large Balcony and Bathtub img 2.avif"
+            },
+            {
+                "src" : "/Gallery/Premium Room with Large Balcony and Bathtub/Premium Room with Large Balcony and Bathtub img 3.avif"
+            },
+            {
+                "src" : "/Gallery/Premium Room with Large Balcony and Bathtub/Premium Room with Large Balcony and Bathtub img 4.avif"
+            },
+            {
+                "src" : "/Gallery/Premium Room with Large Balcony and Bathtub/Premium Room with Large Balcony and Bathtub img 5.avif"
+            },
+            {
+                "src" : "/Gallery/Premium Room with Large Balcony and Bathtub/Premium Room with Large Balcony and Bathtub img 6.avif"
+            },
+            {
+                "src" : "/Gallery/Premium Room with Large Balcony and Bathtub/Premium Room with Large Balcony and Bathtub img 7.avif"
+            },
+            {
+                "src" : "/Gallery/Premium Room with Large Balcony and Bathtub/Premium Room with Large Balcony and Bathtub img 8.avif"
+            },
+            {
+                "src" : "/Gallery/Premium Room with Large Balcony and Bathtub/Premium Room with Large Balcony and Bathtub img 9.avif"
+            },
+            {
+                "src" : "/Gallery/Premium Room with Large Balcony and Bathtub/Premium Room with Large Balcony and Bathtub img 10.webp"
+            },
+            {
+                "src" : "/Gallery/Premium Room with Large Balcony and Bathtub/Premium Room with Large Balcony and Bathtub img 11.avif"
+            },
+            {
+                "src" : "/Gallery/Premium Room with Large Balcony and Bathtub/Premium Room with Large Balcony and Bathtub img 12.avif"
+            },
+            {
+                "src" : "/Gallery/Premium Room with Large Balcony and Bathtub/Premium Room with Large Balcony and Bathtub img 13.avif"
+            },
+            {
+                "src" : "/Gallery/Premium Room with Large Balcony and Bathtub/Premium Room with Large Balcony and Bathtub img 14.avif"
+            },
+            {
+                "src" : "/Gallery/Premium Room with Large Balcony and Bathtub/Premium Room with Large Balcony and Bathtub img 15.avif"
+            },
+            {
+                "src" : "/Gallery/Premium Room with Large Balcony and Bathtub/Premium Room with Large Balcony and Bathtub img 16.avif"
+            },
+            {
+                "src" : "/Gallery/Premium Room with Large Balcony and Bathtub/Premium Room with Large Balcony and Bathtub img 17.avif"
+            }
+        ],
+        "room_des": "Unwind with breathtaking view from room balcony and relax in the bathtub with properties bath amenities",
+        "room_featues": [
+            {
+                "feature_name": "375 sq.ft",
+                "featues_img": "/Gallery/area-modified.png"
+            },
+            {
+                "feature_name": "Valley View",
+                "featues_img": "/Gallery/view icon.png"
+            },
+            {
+                "feature_name": "King Bed",
+                "featues_img": "/Gallery/bed icon.png"
+            }
+        ],
+        "basic_room_amenities" : ["Bathtub", "Balcony"],
+        "rooms_amenities": [
+            {
+                "amenities_category": "Popular with Guests",
+                "amenities": ["Heater", "Wi - Fi", "Laundry Service", "Daily Housekeeping", "Bathroom", "24 - hour In - room Dining", "24 - hour Room Service", "Iron/Ironing Board"]
+            },
+            {
+                "amenities_category": "Room Features",
+                "amenities": ["Charging Points", "Closet", "Mirror", "Mini Fridge", "Chair", "Centre Table", "Hangers", "Blackout Curtains", "Telephone", "Wooden Floors", "Clothes Rack"]
+            },
+            {
+                "amenities_category": "Beds and Blanket",
+                "amenities": ["Cushions", "Blanket", "Pillows"]
+            },
+            {
+                "amenities_category": "Safety and Security",
+                "amenities": ["Safe"]
+            },
+            {
+                "amenities_category": "Media and Entertainment",
+                "amenities": ["TV"]
+            },
+            {
+                "amenities_category": "Kitchen and Appliances",
+                "amenities": ["Refrigerator"]
+            },
+            {
+                "amenities_category": "Bathroom",
+                "amenities": ["Shaving Mirror", "Bathtub", "Hairdryer", "Towels", "Geyser/Water Heater", "Shower", "Dustbins", "Western Toilet Seat", "Bathroom Phone", "Hot & Cold Water", "Toiletries", "Toilet Paper"]
+            },
+            {
+                "amenities_category": "Other Facilities",
+                "amenities": ["Newspaper", "Ceiling Fan", "Kettle", "Magnifying Glass"]
+            }
+        ],
+        "room_price_card" : [
+            {
+                "price_card_name" : "Room With Free Cancellation",
+                "old_price" : "10,735",
+                "new_price" : "6,168",
+                "tax_price" : "1,371",
+                "details" : [
+                    "10 % Discount On Laundry",
+                    "10 % Discount On Salon",
+                    "10 % Discount On Spa",
+                    "No meals included",
+                    "Free Cancellation till 24 hrs before check in"
+                ]
+            },
+            {
+                "price_card_name" : "Room With Free Cancellation | Breakfast only",
+                "old_price" : "12,935",
+                "new_price" : "7,450",
+                "tax_price" : "2,192",
+                "details" : [
+                    "10 % Discount On Laundry",
+                    "10 % Discount On Spa",
+                    "10 % Discount On Salon",
+                    "Free Breakfast",
+                    "Free Cancellation till 24 hrs before check in"
+                ]
+            },
+            {
+                "price_card_name" : "Room With Free Cancellation | Breakfast + Lunch/Dinner",
+                "old_price" : "16,335",
+                "new_price" : "9,409",
+                "tax_price" : "2,769",
+                "details" : [
+                    "10 % Discount On Laundry",
+                    "10 % Discount On Spa",
+                    "10 % Discount On Salon",
+                    "Complimentary Breakfast",
+                    "Complimentary Fixed Menu Dinner",
+                    "Free Cancellation till 24 hrs before check in"
+                ]
+            }
+        ],
+        "room_starting_price" : 6130
+    },
+    {
+        "id": 5,
+        "room_name": "Interconnected Family Rooms with Jacuzzi",
+        "room_images" : [
+            {
+                "src" : "/Gallery/Interconnected Family Rooms with Jacuzzi/Interconnected Family Rooms with Jacuzzi img 1.avif"
+            },
+            {
+                "src" : "/Gallery/Interconnected Family Rooms with Jacuzzi/Interconnected Family Rooms with Jacuzzi img 2.avif"
+            },
+            {
+                "src" : "/Gallery/Interconnected Family Rooms with Jacuzzi/Interconnected Family Rooms with Jacuzzi img 3.avif"
+            },
+            {
+                "src" : "/Gallery/Interconnected Family Rooms with Jacuzzi/Interconnected Family Rooms with Jacuzzi img 4.avif"
+            },
+            {
+                "src" : "/Gallery/Interconnected Family Rooms with Jacuzzi/Interconnected Family Rooms with Jacuzzi img 5.avif"
+            },
+            {
+                "src" : "/Gallery/Interconnected Family Rooms with Jacuzzi/Interconnected Family Rooms with Jacuzzi img 6.avif"
+            },
+            {
+                "src" : "/Gallery/Interconnected Family Rooms with Jacuzzi/Interconnected Family Rooms with Jacuzzi img 7.avif"
+            },
+            {
+                "src" : "/Gallery/Interconnected Family Rooms with Jacuzzi/Interconnected Family Rooms with Jacuzzi img 8.avif"
+            },
+            {
+                "src" : "/Gallery/Interconnected Family Rooms with Jacuzzi/Interconnected Family Rooms with Jacuzzi img 9.avif"
+            },
+            {
+                "src" : "/Gallery/Interconnected Family Rooms with Jacuzzi/Interconnected Family Rooms with Jacuzzi img 10.avif"
+            }
+        ],
+        "room_des": "Indulge in a luxurious stay in this room known to have a dining area, living room and private jacuzzi. The room has a sloping swiss chalet type cieling starting at 9feet and sloping downwards and houses one king size bed and another sofa cum bed., living room. Stream the latest movies and shows on the 32-inch flat screen TV. The well-designed bathroom features An Essence bath amenities, a bathtub, walk-in shower, Jacuzzi ,granite flooring. Rooms are heated in winter (heaters)",
+        "room_featues": [
+            {
+                "feature_name": "750 sq.ft",
+                "featues_img": "/Gallery/area-modified.png"
+            },
+            {
+                "feature_name": "Valley View",
+                "featues_img": "/Gallery/view icon.png"
+            },
+            {
+                "feature_name": "King Bed",
+                "featues_img": "/Gallery/bed icon.png"
+            }
+        ],
+        "basic_room_amenities" : ["Heater", "Iron/Ironing Board", "24-hour Room Service", "Daily Housekeeping", "Bathroom", "24-hour In-room Dining"],
+        "rooms_amenities": [
+            {
+                "amenities_category": "Popular with Guests",
+                "amenities": ["Interconnected Room", "Heater", "Wi - Fi", "Laundry Service", "Daily Housekeeping", "Bathroom", "24 - hour In - room Dining", "24 - hour Room Service", "Iron/Ironing Board"]
+            },
+            {
+                "amenities_category": "Room Features",
+                "amenities": ["Charging Points", "Closet", "Mirror", "Mini Fridge", "Chair", "Dining Table", "Hangers", "Blackout Curtains", "Telephone", "Wooden Floors", "Clothes Rack", "Couch", "Sofa"]
+            },
+            {
+                "amenities_category": "Beds and Blanket",
+                "amenities": ["Cushions", "Blanket", "Pillows"]
+            },
+            {
+                "amenities_category": "Safety and Security",
+                "amenities": ["Safe"]
+            },
+            {
+                "amenities_category": "Media and Entertainment",
+                "amenities": ["TV"]
+            },
+            {
+                "amenities_category": "Kitchen and Appliances",
+                "amenities": ["Refrigerator"]
+            },
+            {
+                "amenities_category": "Bathroom",
+                "amenities": ["Shaving Mirror", "Hairdryer", "Towels", "Geyser/Water Heater", "Shower", "Dustbins", "Western Toilet Seat", "Bathroom Phone", "Hot & Cold Water", "Toiletries", "Toilet Paper"]
+            },
+            {
+                "amenities_category": "Other Facilities",
+                "amenities": ["Jacuzzi", "Newspaper", "Ceiling Fan", "Kettle", "Magnifying Glass"]
+            }
+        ],
+        "room_price_card" : [
+            {
+                "price_card_name" : "Room With Free Cancellation",
+                "old_price" : "11,435",
+                "new_price" : "6,091",
+                "tax_price" : "1,938",
+                "details" : [
+                    "10 % Discount On Laundry",
+                    "10 % Discount On Salon",
+                    "No meals included",
+                    "Free Cancellation till 24 hrs before check in"
+                ]
+            },
+            {
+                "price_card_name" : "Room With Free Cancellation | Breakfast only",
+                "old_price" : "13,635",
+                "new_price" : "7,853",
+                "tax_price" : "2,311",
+                "details" : [
+                    "10 % Discount On Laundry",
+                    "10 % Discount On Salon",
+                    "Free Breakfast",
+                    "Free Cancellation till 24 hrs before check in"
+                ]
+            },
+            {
+                "price_card_name" : "Room With Free Cancellation | Breakfast + Lunch/Dinner",
+                "old_price" : "17,035",
+                "new_price" : "9,812",
+                "tax_price" : "2,888",
+                "details" : [
+                    "10 % Discount On Laundry",
+                    "10 % Discount On Salon",
+                    "Complimentary Breakfast",
+                    "Complimentary Fixed Menu Dinner",
+                    "Free Cancellation till 24 hrs before check in"
+                ]
+            }
+        ],
+        "room_starting_price" : 5999
+    }
+]

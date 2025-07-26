@@ -1,0 +1,94 @@
+.about-landing-page {
+    margin-top: 130px;
+    padding-inline: 16%;
+    margin-bottom: 40px;
+}
+
+.about-us-hotel {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.hotel-heading {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 30px 0;
+}
+
+.about-us-hotel p {
+    font-family: paragraphFontStyle;
+    line-height: normal;
+    text-align: justify;
+}
+
+.hotel-features h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-block: 20px;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+}
+
+@media only screen and (max-width : 1500px) {
+    .about-landing-page {
+        margin-top: 105px;
+    }
+}
+
+@media only screen and (max-width : 1000px) {
+    .about-landing-page {
+        margin-top: 85px;
+    }
+}
+
+@media only screen and (max-width : 1150px) {
+    .about-landing-page {
+        padding-inline: 8%;
+    }
+}
+
+@media only screen and (max-width : 865px) {
+    .about-landing-page {
+        padding-inline: 4.8%;
+    }
+}
+
+@media only screen and (max-width : 630px) {
+    .about-landing-page {
+        margin-top: 90px;
+        padding-inline: 4.5%;
+    }
+
+    .hotel-heading {
+        font-size: 1.6rem;
+        margin: 25px 0;
+    }
+}
+
+@media only screen and (max-width : 440px) {
+    .about-us-hotel{
+        margin-bottom: 30px;
+    }
+
+    .hotel-heading {
+        font-size: 1.1rem;
+        margin: 25px 0 10px 0;
+    }
+
+    .about-us-hotel p {
+        font-size: 0.85rem;
+    }
+
+    .hotel-features h2 {
+        font-size: 1.2rem;
+        margin-block: 10px;
+        text-decoration-thickness: 2px;
+    }
+}
+
+@media only screen and (max-width : 330px) {
+    .about-landing-page {
+        padding-inline: 3.5%;
+    }
+}

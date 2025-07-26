@@ -1,0 +1,62 @@
+[
+    {
+        "id" : 1,
+        "salon_service_name" : "Hair Services",
+        "salon_service_img" : "/Gallery/Salon Images/hair services salon img.jpg",
+        "salon_service_desc" : "This includes haircuts, styling, coloring, treatments, and extensions."
+    },
+    {
+        "id" : 2,
+        "salon_service_name" : "Nail Services",
+        "salon_service_img" : "/Gallery/Salon Images/nail services salon img.jpeg",
+        "salon_service_desc" : "This includes manicures, pedicures, nail art, and nail enhancements."
+    },
+    {
+        "id" : 3,
+        "salon_service_name" : "Skin Care Services",
+        "salon_service_img" : "/Gallery/Salon Images/Skin Care Services salon img.png",
+        "salon_service_desc" : "This includes facials, waxing, threading, and other facial treatments."
+    },
+    {
+        "id" : 4,
+        "salon_service_name" : "Massage Services",
+        "salon_service_img" : "/Gallery/Spa Images/massage therapy spa img.jpg",
+        "salon_service_desc" : "This includes various types of massages such as Swedish, deep tissue, and hot stone massages."
+    },
+    {
+        "id" : 5,
+        "salon_service_name" : "Eyelash and Eyebrow Services",
+        "salon_service_img" : "/Gallery/Salon Images/Eyelash and Eyebrow Services salon img.jpeg",
+        "salon_service_desc" : "This includes lash extensions, lash lifts, and eyebrow shaping."
+    },
+    {
+        "id" : 6,
+        "salon_service_name" : "Tanning Services",
+        "salon_service_img" : "/Gallery/Salon Images/tanning services salon.webp",
+        "salon_service_desc" : "This includes spray tanning and tanning bed services."
+    },
+    {
+        "id" : 7,
+        "salon_service_name" : "Hair Removal Services",
+        "salon_service_img" : "/Gallery/Salon Images/hair removal services salon.jpg",
+        "salon_service_desc" : "This includes waxing, threading, and laser hair removal."
+    },
+    {
+        "id" : 8,
+        "salon_service_name" : "Men's Services",
+        "salon_service_img" : "/Gallery/Salon Images/men's services salon.jpeg",
+        "salon_service_desc" : "This includes haircuts, beard trims, and other grooming services specifically for men."
+    },
+    {
+        "id" : 9,
+        "salon_service_name" : "Children's Services",
+        "salon_service_img" : "/Gallery/Salon Images/children's services salon.jpg",
+        "salon_service_desc" : "This includes haircuts and styling for children."
+    },
+    {
+        "id" : 10,
+        "salon_service_name" : "Wellness Services",
+        "salon_service_img" : "/Gallery/Salon Images/wellness services salon.jpg",
+        "salon_service_desc" : "This includes services such as aromatherapy, reflexology, and Reiki."
+    }
+]

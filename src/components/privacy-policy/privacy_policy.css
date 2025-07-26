@@ -1,0 +1,126 @@
+.priv-pol-page-container {
+    width: 100%;
+    height: 100%;
+    background-color: #192a56;
+    padding-inline: 25%;
+    overflow-x: hidden;
+    padding-bottom: 30px;
+}
+
+.priv-pol-page {
+    background-color: #fff;
+    padding: 130px 15px 0 15px;
+}
+
+.priv-pol-page .priv-pol-page-heading {
+    font-size: 2.5rem;
+    font-family: headingFontStyle;
+}
+
+.priv-pol-page .priv-pol-page-heading span {
+    display: block;
+    font-size: 1.3rem;
+    font-family: paragraphFontStyle;
+}
+
+.priv-pol-content {
+    padding: 45px 0 5px 0;
+}
+
+.priv-pol-content .priv-pol-heading {
+    font-size: 1.9rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+.priv-pol-content h2{
+    font-family: paragraphFontStyle;
+}
+
+.priv-pol-content p {
+    font-size: 1.05rem;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.priv-pol-content p:nth-child(3) span {
+    display: block;
+    font-size: larger;
+    color: #666;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+@media only screen and (max-width : 1450px) {
+    .priv-pol-page-container {
+        padding-inline: 20%;
+    }
+}
+
+@media only screen and (max-width : 950px) {
+    .priv-pol-page-container {
+        padding-inline: 20%;
+    }
+
+    .priv-pol-page{
+        padding: 90px 15px 0 15px;
+    }
+}
+
+@media only screen and (max-width : 715px) {
+    .priv-pol-page-container {
+        padding-inline: 15%;
+    }
+
+    .priv-pol-page .priv-pol-page-heading {
+        font-size: 1.7rem;
+    }
+
+    .priv-pol-page .priv-pol-page-heading span {
+        font-size: 1.1rem;
+    }
+
+    .priv-pol-content .priv-pol-heading {
+        font-size: 1.6rem;
+    }
+
+    .priv-pol-content p {
+        font-size: 1.01rem;
+    }
+}
+
+@media only screen and (max-width : 530px) {
+    .priv-pol-page-container {
+        padding-inline: 8%;
+    }
+}
+
+@media only screen and (max-width : 440px) {
+    .priv-pol-page-container {
+        padding-inline: 0;
+        padding-bottom: 0;
+    }
+
+    .priv-pol-page .priv-pol-page-heading {
+        font-size: 1.5rem;
+    }
+
+    .priv-pol-page .priv-pol-page-heading span {
+        font-size: 1.01rem;
+    }
+
+    .priv-pol-content .priv-pol-heading {
+        font-size: 1.35rem;
+    }
+
+    .priv-pol-content p {
+        font-size: 1rem;
+    }
+
+    .priv-pol-content h2 {
+        font-size: 1.18rem;
+    }
+}

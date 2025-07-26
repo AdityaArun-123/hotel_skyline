@@ -1,0 +1,411 @@
+.review-scorecard-wrapper {
+    width: 100%;
+    padding: 15px 25px 10px 25px;
+    border-bottom: 2px solid rgb(180, 180, 178);
+    border-top: 2px solid rgb(180, 180, 178);
+    margin: 18px auto 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.review-scorecard-container {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.review-scoreboard {
+    display: flex;
+    gap: 20px;
+    width: 50%;
+}
+
+.review-scoreboard .star-rating-box {
+    width: 180px;
+    height: 200px;
+    border-radius: 8px;
+    background-color: var(--banner-bg-color);
+    padding: 20px;
+    color: var(--text-primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.star-rating-box h4 {
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1.28rem;
+}
+
+.star-rating-box h1 span {
+    font-size: 3.8rem;
+}
+
+.star-rating-box>span {
+    font-size: larger;
+    font-weight: 600;
+}
+
+.review-scoreboard .score-box {
+    width: calc(100% - 200px);
+    padding-block: 25px;
+}
+
+.score-box .boxes {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.score-box .boxes .side {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.score-box .boxes .middle-bar-container {
+    width: 70%;
+    height: 8px;
+    border-radius: 2rem;
+    background-color: rgb(221, 217, 217);
+    position: relative;
+}
+
+.score-box .boxes .middle-bar-container .bar {
+    height: 8px;
+    border-radius: 2rem;
+    background-color: var(--text-primary-color);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.review-scorecard-container .what-our-guest-say {
+    width: 45%;
+    border: 0.1rem solid rgb(209, 209, 209);
+    border-radius: 8px;
+    padding-block: 20px;
+}
+
+.what-our-guest-say h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    border-bottom: 0.1rem solid rgb(209, 209, 209);
+}
+
+.what-our-guest-say .what-our-guest-say-filters {
+    padding: 20px 20px 0 20px;
+    border-top: 0.1rem solid rgb(209, 209, 209);
+}
+
+.what-our-guest-say .what-our-guest-say-filters ul {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.what-our-guest-say .what-our-guest-say-filters ul li {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    padding: 5px 8px;
+    border: 2px solid var(--banner-bg-color);
+    border-radius: 6px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.what-our-guest-say .what-our-guest-say-filters ul li.filter-active {
+    background-color: var(--banner-bg-color);
+    color: var(--text-primary-color);
+}
+
+.review-scorecard-wrapper .filter-by {
+    align-self: flex-end;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+}
+
+.filter-by span:first-child {
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+}
+
+.filter-by span:nth-child(2),
+.filter-drop-down li {
+    font-size: large;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.filter-by span:nth-child(2),
+.filter-by i {
+    cursor: pointer;
+}
+
+.filter-by i {
+    transform: rotate(0deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+.filter-by i.rotate {
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+
+.filter-by .filter-drop-down {
+    position: absolute;
+    left: 0;
+    z-index: 30;
+    width: 100%;
+    border-radius: 10px;
+    background-color: var(--drop-down-bg-color);
+    border: 2px solid var(--drop-down-text-color);
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+    animation: showDropDownAnimation 0.3s ease-in-out;
+}
+
+.filter-by .filter-drop-down.show {
+    opacity: 1;
+    visibility: visible;
+    display: block;
+}
+
+.filter-drop-down li {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    padding-block: 12px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--drop-down-text-color);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.filter-drop-down li:first-child{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.filter-drop-down li:last-child{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.filter-drop-down li:hover {
+    background-color: var(--drop-down-hover-bg-color);
+}
+
+.filter-drop-down li:not(:last-child) {
+    border-bottom: 1px solid var(--drop-down-text-color);
+}
+
+@keyframes showDropDownAnimation {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    50% {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    75% {
+        opacity: 0.2;
+        visibility: visible;
+    }
+
+    100% {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@media only screen and (max-width : 1400px) {
+    .review-scorecard-wrapper {
+        padding: 16px;
+    }
+
+    .review-scorecard-container {
+        gap: 20px;
+    }
+
+    .review-scoreboard .star-rating-box {
+        width: 150px;
+        height: 170px;
+        padding: 15px;
+    }
+
+    .star-rating-box h4 {
+        font-size: 1.1rem;
+    }
+
+    .star-rating-box h1 span {
+        font-size: 2.9rem;
+    }
+
+    .star-rating-box>span {
+        font-size: large;
+    }
+
+    .review-scoreboard .score-box {
+        width: calc(100% - 165px);
+        padding-block: 12px;
+    }
+
+    .score-box .boxes .middle-bar-container {
+        width: 55%;
+    }
+
+    .review-scorecard-container .what-our-guest-say {
+        width: 55%;
+        padding-block: 15px;
+    }
+
+    .what-our-guest-say h4 {
+        padding-bottom: 12px;
+        font-size: 0.95rem;
+    }
+
+    .what-our-guest-say .what-our-guest-say-filters {
+        padding: 20px 14px 0 14px;
+    }
+
+    .what-our-guest-say .what-our-guest-say-filters ul {
+        gap: 10px;
+    }
+
+    .what-our-guest-say .what-our-guest-say-filters ul li {
+        font-size: 0.77rem;
+        padding: 5px;
+    }
+
+    .filter-by span:first-child {
+        font-size: large;
+    }
+
+    .filter-by span:nth-child(2),
+    .filter-drop-down li {
+        font-size: medium;
+    }
+}
+
+@media only screen and (max-width : 950px) {
+
+    .review-scorecard-container {
+        gap: 10px;
+    }
+
+    .review-scoreboard .star-rating-box {
+        width: 140px;
+        height: 170px;
+    }
+
+    .star-rating-box h4 {
+        font-size: 1rem;
+    }
+
+    .star-rating-box h1 span {
+        font-size: 2.5rem;
+    }
+
+    .review-scoreboard {
+        width: 50%;
+    }
+
+    .review-scorecard-container .what-our-guest-say {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width : 800px) {
+    .review-scorecard-container {
+        flex-direction: column;
+    }
+
+    .review-scoreboard {
+        width: 85%;
+        padding-left: 5%;
+    }
+
+    .review-scorecard-container .what-our-guest-say {
+        width: 85%;
+    }
+
+    .score-box .boxes .middle-bar-container {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    .review-scoreboard {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .review-scorecard-container .what-our-guest-say {
+        width: 100%;
+    }
+
+    .score-box .boxes .middle-bar-container {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width : 440px) {
+    .review-scoreboard {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .review-scoreboard .star-rating-box {
+        width: 160px;
+        height: 180px;
+    }
+
+    .star-rating-box h1 span {
+        font-size: 3.2rem;
+    }
+
+    .review-scoreboard .score-box {
+        width: 100%;
+        padding-block: 0;
+    }
+
+    .score-box .boxes .middle-bar-container {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width : 360px) {
+    .review-scorecard-wrapper {
+        padding: 16px 0;
+    }
+
+    .score-box .boxes .middle-bar-container {
+        width: 55%;
+    }
+
+    .score-box .boxes {
+        margin-inline: 5%;
+    }
+}

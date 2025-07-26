@@ -1,0 +1,650 @@
+.rooms-landing-page-container {
+    padding-inline: 12%;
+    margin-top: 130px;
+}
+
+.room-types-container {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid black;
+}
+
+.rooms-details {
+    width: 25%;
+}
+
+.room-landing-page-img {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.mySwiper3 {
+    height: 100% !important;
+}
+
+.mySwiper3 .swiper-slide{
+    position: relative;
+}
+
+.rooms-details .room-landing-page-img img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.room-landing-page-img .swiper-button-prev,
+.room-landing-page-img .swiper-button-next,
+.room-landing-page-img .swiper-pagination {
+    top: unset !important;
+    left: unset !important;
+    right: unset !important;
+    bottom: unset !important;
+    width: unset !important;
+    position: unset !important;
+    margin-top: unset !important;
+}
+
+.room-landing-page-img .swiper-button-prev,
+.room-landing-page-img .swiper-button-next {
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%);
+    z-index: 99;
+    width: 33px !important;
+    height: 33px !important;
+    border-radius: 50% !important;
+}
+
+.room-landing-page-img .swiper-button-prev:after,
+.room-landing-page-img .swiper-button-next:after {
+    font-size: 16px !important;
+    font-weight: 900;
+}
+
+.room-landing-page-img .swiper-button-prev {
+    left: 15px !important;
+}
+
+.room-landing-page-img .swiper-button-next {
+    right: 15px !important;
+}
+
+.room-landing-page-img .swiper-pagination {
+    width: 25% !important;
+    position: absolute !important;
+    left: 50% !important;
+    transform: translateX(-50%);
+    bottom: 13px !important;
+    z-index: 99;
+}
+
+.room-landing-page-img .swiper-pagination-bullet:not(.swiper-pagination-bullet-active) {
+    opacity: 0.5 !important;
+}
+
+.rooms-details .room-name {
+    font-size: 1.4rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.rooms-details .room-features {
+    margin-top: 20px;
+}
+
+.room-features-list {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.room-features-list span,
+.room-amenities span {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.room-features-img {
+    width: 20px;
+    height: 20px;
+}
+
+.room-features-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.room-amenities {
+    margin-top: 15px;
+}
+
+.room-amenities span {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.room-amenities ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.room-amenities ul li {
+    font-size: 1.02rem;
+    margin-left: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.rooms-details .more-details {
+    font-size: 1.1rem;
+    color: var(--button-primary-color);
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: underline solid var(--button-primary-color) 2px;
+    text-underline-offset: 4px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.rooms-pricing-details {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rooms-pricing-details .price-card {
+    width: 32.7%;
+    height: 500px;
+    padding: 20px 5px 15px 0;
+    border-radius: 15px;
+    border: 2px solid var(--banner-bg-color);
+    position: relative;
+    cursor: pointer;
+}
+
+.rooms-pricing-details .price-card.scale {
+    animation: scalePriceCard 0.3s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.rooms-pricing-details .price-card.unScale {
+    animation: unScalePriceCard 0.3s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.price-card h3 {
+    margin-bottom: 20px;
+    text-align: center;
+    min-height: 50px;
+    max-height: 50px;
+    padding-inline: 3%;
+}
+
+.price-card .room-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 7%;
+}
+
+.room-price .old-price {
+    align-self: flex-start;
+    font-size: 1.1rem;
+    text-decoration-line: line-through;
+}
+
+.new-price .price {
+    font-size: 1.23rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.room-price .tax-price {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.price-card .price-card-content {
+    margin-top: 30px;
+    padding-left: 4%;
+}
+
+.price-card-content ul li {
+    list-style: none;
+    margin-bottom: 0.6rem;
+    padding-left: 25px;
+    text-indent: -11px;
+}
+
+.price-card-content ul li i {
+    margin-right: 8px;
+}
+
+.price-card .book-room {
+    padding-block: 10px;
+    padding-inline: 15px;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.87rem;
+}
+
+@keyframes scalePriceCard {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+@keyframes unScalePriceCard {
+    0% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media only screen and (max-width : 1000px) {
+    .rooms-landing-page-container {
+        margin-top: 90px;
+    }
+}
+
+@media only screen and (max-width : 1100px) {
+
+    .room-types-container {
+        gap: 5px;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .rooms-details {
+        width: 100%;
+    }
+
+    .room-amenities ul {
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+    .rooms-details .more-details {
+        margin-bottom: 15px;
+    }
+
+    .room-types-container {
+        margin-bottom: 30px;
+    }
+
+    .rooms-pricing-details {
+        width: 100%;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .rooms-pricing-details .price-card {
+        width: 100%;
+        height: 200px;
+        padding: 15px 10px;
+    }
+
+    .price-card h3 {
+        margin-bottom: 2px;
+        width: 45%;
+        min-height: 35px;
+        max-height: 45px;
+        padding: 0;
+        font-size: 1rem;
+    }
+
+    .price-card .room-price {
+        justify-content: unset;
+        gap: 20px;
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    .room-price .old-price {
+        font-size: 0.8rem;
+        padding-block: 5px;
+    }
+
+    .new-price .price {
+        font-size: 0.9rem;
+    }
+
+    .room-price .tax-price {
+        font-size: 0.9rem;
+        margin-top: 7px;
+    }
+
+    .price-card .price-card-content {
+        margin-top: 0;
+        padding-left: 0;
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .price-card-content ul li {
+        margin-bottom: 0.3rem;
+        font-size: 0.85rem;
+    }
+
+    .price-card-content ul li i {
+        margin-right: 4px;
+    }
+
+    .price-card .book-room {
+        bottom: 7px;
+        left: 35%;
+        transform: translateX(-35%);
+        font-size: 0.7rem;
+        padding-block: 5px;
+        padding-inline: 9px;
+    }
+}
+
+@media only screen and (max-width : 650px) {
+    .rooms-landing-page-container {
+        padding-inline: 5%;
+    }
+
+    .rooms-pricing-details .price-card {
+        height: 220px;
+        padding: 5px 10px;
+    }
+
+    .price-card h3 {
+        width: 100%;
+    }
+
+    .price-card .room-price {
+        width: 30%;
+        flex-direction: column;
+        gap: 5px;
+        margin-top: 18px;
+        text-align: center;
+        align-items: initial;
+    }
+
+    .room-price .old-price {
+        align-self: initial;
+        padding-block: 0;
+        font-size: 0.75rem;
+    }
+
+    .new-price .price,
+    .room-price .tax-price {
+        font-size: 0.7rem;
+    }
+
+    .price-card .price-card-content {
+        width: 60%;
+        right: 2px;
+    }
+
+    .price-card-content ul li {
+        margin-bottom: 0.2rem;
+        font-size: 0.75rem;
+    }
+
+    .price-card-content ul li i {
+        font-size: 0.6rem;
+    }
+
+    .price-card .book-room {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media only screen and (max-width : 440px) {
+
+    .room-landing-page-img{
+        height: 200px !important;
+    }
+
+    .room-landing-page-img .swiper-button-prev,
+    .room-landing-page-img .swiper-button-next {
+        width: 28px !important;
+        height: 28px !important;
+    }
+
+    .room-landing-page-img .swiper-button-prev:after,
+    .room-landing-page-img .swiper-button-next:after {
+        font-size: 12px !important;
+    }
+
+    .rooms-details .room-name {
+        font-size: 1.2rem;
+    }
+
+    .room-features-list span{
+        font-size: 0.78rem;
+    }
+
+    .room-features-img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .room-amenities ul {
+        gap: 5px;
+    }
+    
+    .room-amenities ul li {
+        font-size: 0.9rem;
+    }
+
+    .room-price .old-price {
+        font-size: 0.7rem;
+    }
+
+    .new-price .price,
+    .room-price .tax-price {
+        font-size: 0.6rem;
+    }
+
+    .price-card-content ul li {
+        font-size: 0.7rem;
+    }
+
+    .price-card-content ul li i {
+        font-size: 0.52rem;
+    }
+
+    .rooms-details .more-details {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width : 370px) {
+    .rooms-pricing-details .price-card {
+        height: 220px;
+    }
+
+    .price-card h3 {
+        font-size: 0.85rem;
+        min-height: 28px;
+    }
+
+    .price-card .room-price {
+        width: 100%;
+        flex-direction: row;
+        margin-top: 10px;
+        justify-content: space-around;
+    }
+
+    .new-price .tax-price {
+        margin-top: 2px;
+    }
+
+    .price-card .price-card-content {
+        width: 100%;
+        text-align: left;
+        bottom: 65px;
+        left: 10px;
+        right: unset;
+        padding-right: 8px;
+    }
+
+    .price-card-content ul li {
+        font-size: 0.6rem;
+    }
+}
+
+@media only screen and (max-width : 225px) {
+    .price-card .price-card-content {
+        bottom: 75px;
+    }
+
+    .price-card .book-room {
+        bottom: 2px;
+    }
+}
+
+@media only screen and (min-width : 580px) and (max-width : 1100px) {
+    .rooms-landing-page-container {
+        padding-inline: 12%;
+        margin-top: 90px;
+    }
+
+    .room-amenities ul {
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+
+    .rooms-details .more-details {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width : 780px) and (max-width : 1100px) {
+    .rooms-landing-page-container {
+        padding-inline: 19%;
+    }
+}
+
+@media only screen and (min-width : 1100px) and (max-width : 1290px) {
+    .rooms-landing-page-container {
+        padding-inline: 6%;
+    }
+
+    .room-landing-page-img {
+        height: 180px !important;
+    }
+
+    .room-types-container {
+        gap: 15px;
+        margin-bottom: 30px;
+    }
+
+    .rooms-details .room-name {
+        font-size: 1.2rem;
+    }
+
+
+    .price-card-content ul li {
+        margin-bottom: 0.48rem;
+        font-size: 0.9rem;
+    }
+
+    .price-card h3 {
+        min-height: 45px;
+        max-height: 45px;
+        font-size: 1.1rem;
+    }
+
+    .price-card .room-price {
+        padding-left: 6%;
+    }
+
+    .room-price .old-price {
+        font-size: 1.05rem;
+    }
+
+    .new-price .price {
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+
+    .room-price .tax-price {
+        margin-top: 8px;
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (min-width : 1290px) and (max-width : 1600px) {
+    .rooms-landing-page-container {
+        padding-inline: 10%;
+    }
+
+    .room-landing-page-img {
+        height: 200px !important;
+    }
+
+    .room-types-container {
+        gap: 17px;
+        margin-bottom: 30px;
+    }
+
+    .rooms-details .room-name {
+        font-size: 1.2rem;
+    }
+
+    .price-card-content ul li {
+        margin-bottom: 0.4rem;
+        font-size: 0.9rem;
+    }
+
+    .price-card h3 {
+        min-height: 50px;
+        max-height: 50px;
+        font-size: 1.1rem;
+    }
+
+    .new-price .price {
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+
+    .room-price .tax-price {
+        margin-top: 8px;
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (min-width : 1100px) and (max-width : 1210px) {
+    .price-card h3 {
+        font-size: 1.04rem;
+        padding-inline: 2%;
+    }
+}
+
+@media only screen and (min-width : 1100px) and (max-width : 1630px) {
+    .room-types-container {
+        padding-bottom: 20px;
+    }
+}

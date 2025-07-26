@@ -1,0 +1,161 @@
+[
+    {
+        "id" : 1,
+        "gallery_card_name" : "Catering",
+        "gallery_card_images" : [
+            {
+                "img_src" : "/Gallery/Hotel Catering Images/Catering 1.jpeg"
+            },
+            {
+                "img_src" : "/Gallery/Hotel Catering Images/Catering 2.jpeg"
+            },
+            {
+                "img_src" : "/Gallery/Hotel Catering Images/Catering 3.jpeg"
+            },
+            {
+                "img_src" : "/Gallery/Hotel Catering Images/Catering 4.jpeg"
+            },
+            {
+                "img_src" : "/Gallery/Hotel Catering Images/Catering 5.jpeg"
+            },
+            {
+                "img_src" : "/Gallery/Hotel Catering Images/Catering 6.jpg"
+            },
+            {
+                "img_src" : "/Gallery/Hotel Catering Images/Catering 7.jpeg"
+            }
+        ]
+    },
+    {
+        "id" : 2,
+        "gallery_card_name" : "Ceremonies",
+        "gallery_card_images" : [
+            {
+                "img_src" : "/Gallery/Hotel Ceremonies Images/ceremonies 1.jpeg"
+            },
+            {
+                "img_src" : "/Gallery/Hotel Ceremonies Images/ceremonies 2.jpeg"
+            },
+            {
+                "img_src" : "/Gallery/Hotel Ceremonies Images/ceremonies 3.jpeg"
+            },
+            {
+                "img_src" : "/Gallery/Hotel Ceremonies Images/ceremonies 4.jpeg"
+            },
+            {
+                "img_src" : "/Gallery/Hotel Ceremonies Images/ceremonies 5.jpeg"
+            }
+        ]
+    },
+    {
+        "id" : 3,
+        "gallery_card_name" : "Gardern",
+        "gallery_card_images" : [
+            {
+                "img_src" : "/Gallery/Hotel Garden Images/Garden 1.jpeg"
+            },
+            {
+                "img_src" : "/Gallery/Hotel Garden Images/Garden 2.jpeg"
+            },
+            {
+                "img_src" : "/Gallery/Hotel Garden Images/Garden 3.jpeg"
+            },
+            {
+                "img_src" : "/Gallery/Hotel Garden Images/Garden 4.jpg"
+            },
+            {
+                "img_src" : "/Gallery/Hotel Garden Images/Garden 5.jpg"
+            },
+            {
+                "img_src" : "/Gallery/Hotel Garden Images/Garden 6.webp"
+            },
+            {
+                "img_src" : "/Gallery/Hotel Garden Images/Garden 7.jpg"
+            }
+        ]
+    },
+    {
+        "id" : 4,
+        "gallery_card_name" : "Play Area",
+        "gallery_card_images" : [
+            {
+                "img_src" : "/Gallery/Hotel Play Area Images/play area 1.jpeg"
+            },
+            {
+                "img_src" : "/Gallery/Hotel Play Area Images/play area 2.jpeg"
+            },
+            {
+                "img_src" : "/Gallery/Hotel Play Area Images/play area 3.jpeg"
+            },
+            {
+                "img_src" : "/Gallery/Hotel Play Area Images/play area 4.jpeg"
+            },
+            {
+                "img_src" : "/Gallery/Hotel Play Area Images/play area 5.jpeg"
+            },
+            {
+                "img_src" : "/Gallery/Hotel Play Area Images/play area 6.jpeg"
+            }
+        ]
+    },
+    {
+        "id" : 5,
+        "gallery_card_name" : "Reception And Hall",
+        "gallery_card_images" : [
+            {
+                "img_src" : "/Gallery/Hotel Reception & Hall Images/Reception & Hall 1.webp"
+            },
+            {
+                "img_src" : "/Gallery/Hotel Reception & Hall Images/Reception & Hall 2.jpg"
+            },
+            {
+                "img_src" : "/Gallery/Hotel Reception & Hall Images/Reception & Hall 3.jpg"
+            },
+            {
+                "img_src" : "/Gallery/Hotel Reception & Hall Images/Reception & Hall 4.jpg"
+            },
+            {
+                "img_src" : "/Gallery/Hotel Reception & Hall Images/Reception & Hall 5.avif"
+            }
+        ]
+    },
+    {
+        "id" : 6,
+        "gallery_card_name" : "Swimming Pool",
+        "gallery_card_images" : [
+            {
+                "img_src" : "/Gallery/Hotel Swimming Pool/Pool 1.jpeg"    
+            },
+            {
+                "img_src" : "/Gallery/Hotel Swimming Pool/Pool 2.jpeg"    
+            },
+            {
+                "img_src" : "/Gallery/Hotel Swimming Pool/Pool 3.jpeg"    
+            },
+            {
+                "img_src" : "/Gallery/Hotel Swimming Pool/Pool 4.webp"    
+            }
+        ]
+    },
+    {
+        "id" : 7,
+        "gallery_card_name" : "Wellness And Fitness",
+        "gallery_card_images" : [
+            {
+                "img_src" : "/Gallery/Hotel Wellness & Fitness Images/wellness & fitness 1.jpeg"    
+            },
+            {
+                "img_src" : "/Gallery/Hotel Wellness & Fitness Images/wellness & fitness 2.jpg"    
+            },
+            {
+                "img_src" : "/Gallery/Hotel Wellness & Fitness Images/wellness & fitness 3.jpeg"    
+            },
+            {
+                "img_src" : "/Gallery/Hotel Wellness & Fitness Images/wellness & fitness 4.jpeg"    
+            },
+            {
+                "img_src" : "/Gallery/Hotel Wellness & Fitness Images/wellness & fitness 5.jpg"    
+            }
+        ]
+    }
+]

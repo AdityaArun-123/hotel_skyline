@@ -1,0 +1,27 @@
+[
+    {
+        "id" : "1",
+        "feature_head": "The Rooms",
+        "feature_desc": "Hotel Skyline boasts a variety of rooms and suites to cater to the needs and preferences of its diverse range of guests. Each room is elegantly designed with a contemporary flair, featuring plush furnishings, soft lighting, and breathtaking views of the city. The spacious and comfortable beds are fitted with luxurious linens to ensure a restful night's sleep. The rooms are also equipped with modern amenities such as flat-screen TVs, complimentary Wi-Fi, and a well-stocked mini-bar, providing guests with the ultimate comfort and convenience."
+    },
+    {
+        "id" : "2",
+        "feature_head": "Dining Options",
+        "feature_desc": "Food lovers will be delighted with the dining options at Hotel Skyline. The hotel's signature restaurant, The Skyline Grill, offers a fine dining experience with a menu that showcases a fusion of international and local cuisine. The restaurant's elegant ambiance and impeccable service make it the perfect spot for a romantic dinner or a business lunch. For a more casual dining experience, guests can head to The Skyline Café, which offers a variety of delectable dishes and refreshing drinks in a relaxed setting."
+    },
+    {
+        "id" : "3",
+        "feature_head": "Amenities and Services",
+        "feature_desc": "Hotel Skyline goes above and beyond to ensure that its guests have a truly unforgettable stay. The hotel boasts a luxurious spa, where guests can indulge in a range of treatments and massages to rejuvenate and relax their mind, body, and soul. The fitness center is also equipped with the latest gym equipment, allowing guests to maintain their fitness routine while away from home. For those in need of a little retail therapy, the hotel also has a boutique shop offering a selection of local and international brands."
+    },
+    {
+        "id" : "4",
+        "feature_head": "Business and Events",
+        "feature_desc": "Hotel Skyline is not just a haven for leisure travelers; it also caters to the needs of business travelers. The hotel has a fully equipped business center with state-of-the-art facilities, making it the perfect venue for meetings, conferences, and other corporate events. The hotel's event planning team is also on hand to assist with organizing and executing flawless events, ensuring that every detail is taken care of."
+    },
+    {
+        "id" : "5",
+        "feature_head": "Location",
+        "feature_desc": "In conclusion, Hotel Skyline offers a luxurious and unforgettable experience for its guests, combining modern amenities, impeccable service, and a prime location. Whether you are traveling for business or leisure, this hotel is the ultimate choice for a truly indulgent stay. So why settle for anything less when you can have the best? Book your stay at Hotel Skyline and experience the ultimate in luxury and comfort."
+    }
+]

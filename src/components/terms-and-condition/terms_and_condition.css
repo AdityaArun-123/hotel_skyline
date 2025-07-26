@@ -1,0 +1,129 @@
+.terms-and-condition-page-container {
+    width: 100%;
+    height: 100%;
+    background-color: #192a56;
+    padding-inline: 25%;
+    overflow-x: hidden;
+    padding-bottom: 30px;
+}
+
+.terms-cond-page {
+    background-color: #fff;
+    padding: 130px 15px 0 15px;
+}
+
+.terms-cond-page .terms-and-condition-heading {
+    font-size: 2.5rem;
+    font-family: headingFontStyle;
+}
+
+.terms-cond-page .terms-and-condition-heading span {
+    display: block;
+    font-size: 1.3rem;
+    font-family: paragraphFontStyle;
+}
+
+.terms-cond-content {
+    padding: 45px 0 5px 0;
+}
+
+.terms-cond-content .terms-cond-heading {
+    font-size: 1.9rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+.terms-cond-content ul {
+    font-size: 1.05rem;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding-inline: 5%;
+    list-style-type: '✸';
+}
+
+.terms-cond-content ul li {
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width : 1450px) {
+    .terms-and-condition-page-container {
+        padding-inline: 20%;
+    }
+
+    .terms-cond-content .terms-cond-heading {
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (max-width : 950px) {
+    .terms-and-condition-page-container {
+        padding-inline: 20%;
+    }
+
+    .terms-cond-page {
+        padding: 90px 15px 0 15px;
+    }
+
+    .terms-cond-content .terms-cond-heading {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width : 715px) {
+    .terms-and-condition-page-container {
+        padding-inline: 15%;
+    }
+
+    .terms-cond-page .terms-and-condition-heading {
+        font-size: 1.7rem;
+    }
+
+    .terms-cond-page .terms-and-condition-heading span {
+        font-size: 1.1rem;
+    }
+
+    .terms-cond-content .terms-cond-heading {
+        font-size: 1.4rem;
+    }
+
+    .terms-cond-content ul {
+        font-size: 1.01rem;
+    }
+}
+
+@media only screen and (max-width : 530px) {
+    .terms-and-condition-page-container {
+        padding-inline: 8%;
+    }
+}
+
+@media only screen and (max-width : 440px) {
+    .terms-and-condition-page-container {
+        padding-inline: 0;
+        padding-bottom: 0;
+    }
+
+    .terms-cond-page .terms-and-condition-heading {
+        font-size: 1.5rem;
+    }
+
+    .terms-cond-page .terms-and-condition-heading span {
+        font-size: 1.01rem;
+    }
+
+    .terms-cond-content .terms-cond-heading {
+        font-size: 1.35rem;
+    }
+
+    .terms-cond-content ul {
+        font-size: 1rem;
+    }
+
+    .terms-cond-content h2 {
+        font-size: 1.18rem;
+    }
+}

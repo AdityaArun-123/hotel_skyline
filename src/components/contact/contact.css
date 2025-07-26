@@ -1,0 +1,136 @@
+.contact-us-container {
+    margin-top: 130px;
+}
+
+.contact-us-content {
+    width: calc(70% - 20px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-us-contact-info,
+.contact-us-user-info {
+    width: 47%;
+    padding: 0 2% 2% 2%;
+}
+
+.contact-us-contact-info span {
+    font-size: 1.2rem;
+    font-family: paragraphFontStyle;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+.contact-us-contact-info p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+
+.contact-us-contact-info a {
+    font-size: 1.8rem;
+    color: var(--banner-bg-color);
+    text-decoration: none;
+    margin-inline: 1%;
+}
+
+.contact-us-user-info label {
+    display: block;
+    margin-bottom: 1%;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.contact-us-user-info label::after {
+    content: '*';
+    font-size: 1.2rem;
+    color: red;
+    margin-left: 5px;
+}
+
+.contact-us-user-info input,
+.contact-us-user-info textarea {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 5.5%;
+    padding-inline: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 2px solid var(--banner-bg-color);
+}
+
+.contact-us-user-info input:focus,
+.contact-us-user-info textarea:focus {
+    border: 1px solid var(--text-primary-color);
+    outline: 1px solid var(--text-primary-color);
+}
+
+.contact-us-user-info textarea {
+    height: 120px;
+    min-height: 80px;
+    resize: vertical;
+    padding-block: 15px;
+    transition: resize 0.2s ease;
+}
+
+.contact-us-user-info .send-msg-btn {
+    width: 100%;
+    font-size: 1rem;
+    padding: 2% 4%;
+    background-color: transparent;
+}
+
+.contact-map {
+    width: 100%;
+    margin-top: 20px;
+    height: 500px;
+}
+
+@media only screen and (max-width : 1100px) {
+    .contact-us-container{
+        margin-top: 90px;
+    }
+}
+
+@media only screen and (max-width : 650px) {
+    .contact-us-container {
+        margin-top: 90px;
+    }
+
+    .contact-us-content {
+        width: 100%;
+        flex-direction: column;
+        gap: 30px;
+        padding-inline: 4%;
+    }
+
+    .contact-us-contact-info,
+    .contact-us-user-info {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width : 300px) {
+    .contact-map {
+        margin-top: 35px;
+        height: 350px;
+    }
+}
+
+@media only screen and (min-width : 650px) and (max-width : 1100px) {
+    .contact-us-content {
+        width: 100%;
+        padding-inline: 3%;
+        gap: 40px;
+    }
+
+    .contact-us-contact-info,
+    .contact-us-user-info {
+        padding: 0;
+    }
+}

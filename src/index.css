@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a{
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+@font-face {
+  font-family: headingFontStyle;
+  font-weight: 300;
+  font-style: normal;
+  src: url('/public/Fonts/racingsansone-regular-webfont.woff2') format('woff2'),
+    url('/public/Fonts/racingsansone-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: paragraphFontStyle;
+  font-weight: 400;
+  font-style: normal;
+  src: url('/public/Fonts/breeserif-regular-webfont.woff2') format('woff2'),
+    url('/public/Fonts/breeserif-regular-webfont.woff') format('woff');
+}
+
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  background-color: var(--body-bg-color);
+}
+
+body::-webkit-scrollbar {
+  background-color: var(--header-footer-bg-color);
+  width: 16px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--text-primary-color);
+  border: 5px solid transparent;
+  border-radius: 8px;
+  background-clip: padding-box;
+}
+
+:root {
+  --header-footer-bg-color: #32012F;
+  --header-footer-text-primary-color: #FFFFFF;
+  --header-footer-text-hover-color: #461a43;
+  --banner-bg-color: #192a56;
+  --text-primary-color: #4cd137;
+  --button-primary-color: #990000;
+  --button-text-primary-color: #FFFFFF;
+  --drop-down-bg-color: #D7ECFF;
+  --drop-down-text-color: #660000;
+  --drop-down-hover-bg-color: #c5dcf3;
+  --body-bg-color: #FFF7F1;
+}
+
+/* Common Style For Input type = "date" and remove the background color of default input when user type in input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 0s 600000s, color 0s 600000s !important;
+}
+/* end */
+
+/* common style for custom scrollbar on particular div or element */
+.common-custom-scrollbar::-webkit-scrollbar {
+  border-radius: 2rem;
+  width: 20px;
+}
+
+.common-custom-scrollbar::-webkit-scrollbar-track {
+  width: 100%;
+  background-color: var(--header-footer-bg-color);
+  border-radius: 2rem;
+  margin-block: 10px;
+  border-right: 3px solid transparent;
+  border-left: 3px solid transparent;
+  background-clip: padding-box;
+}
+
+.common-custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--text-primary-color);
+  border: 7px solid transparent;
+  border-radius: 16px;
+  background-clip: padding-box;
+}
+/* end */
+
+/* common style for all the butons in website except the header btn and offer-section on home page btn */
+.common-button {
+  border: 2px solid var(--button-primary-color) !important;
+  color: var(--button-primary-color) !important;
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 700 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize !important;
+  border-radius: 10px !important;
+  cursor: pointer !important;
+  position: relative;
+  z-index: 1;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.common-button::after {
+  content: '';
+  border: none;
+  background: var(--button-primary-color);
+  width: 0;
+  height: 100%;
+  border-radius: 7px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.common-button:hover {
+  color: var(--button-text-primary-color) !important;
+}
+
+.common-button:hover::after {
+  width: 100%;
+}
+/* end */
+
+/* common style for header and offer-section on home page btns */
+.common-button-2 {
+  border: 2px solid var(--text-primary-color);
+  color: var(--button-text-primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.common-button-2::after {
+  content: '';
+  border: none !important;
+  background: var(--text-primary-color);
+  width: 0;
+  height: 100%;
+  border-radius: 7px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.common-button-2:hover::after {
+  width: 100%;
+}
+/* end */
+
+/* common style for all the swiper btns and pagination bullets in website */
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: var(--text-primary-color) !important;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: var(--button-text-primary-color);
+}
+
+.swiper-pagination-bullet {
+  background: var(--text-primary-color) !important;
+  opacity: 0.3 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--text-primary-color) !important;
+  opacity: 1 !important;
+}
+/* end */
+
+@media only screen and (max-width : 1005px) {
+  .common-button {
+    background-color: var(--button-primary-color) !important;
+    color: var(--button-text-primary-color) !important;
+  }
+
+  .common-custom-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* common animations and CSS for that animations for all the Modal present in the wensite */
+@keyframes animateShowModalBackground {
+  0% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
+
+@keyframes animateShowModalContent {
+  0% {
+      transform: translate(-50%, -50%) scale(0);
+  }
+
+  100% {
+      transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes animateHideModalBackground {
+  0% {
+      opacity: 1;
+  }
+
+  100% {
+      opacity: 0;
+  }
+}
+
+@keyframes animateHideModalContent {
+  0% {
+      transform: translate(-50%, -50%) scale(1);
+  }
+
+  100% {
+      transform: translate(-50%, -50%) scale(0);
+  }
+}
+
+.rooms-more-details-container.open,
+.review-modal-container.open,
+.enquire-modal-container.open,
+.booking-and-cancellation-modal-container.open,
+.calender-modal-container.open,
+.price-details-modal-container.open {
+  animation: animateShowModalBackground 300ms ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.more-details-content.open,
+.write-review-content.open,
+.enquire-modal-content.open,
+.booking-and-cancellation-modal-content.open,
+.calender-modal-content.open,
+.price-details-modal-content.open {
+  animation: animateShowModalContent 300ms ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.rooms-more-details-container.hide,
+.review-modal-container.hide,
+.enquire-modal-container.hide,
+.booking-and-cancellation-modal-container.hide,
+.calender-modal-container.hide,
+.price-details-modal-container.hide {
+  animation: animateHideModalBackground 300ms ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.more-details-content.hide,
+.write-review-content.hide,
+.enquire-modal-content.hide,
+.booking-and-cancellation-modal-content.hide,
+.calender-modal-content.hide,
+.price-details-modal-content.hide {
+  animation: animateHideModalContent 300ms ease-in-out;
+  animation-fill-mode: forwards;
+}
+/* end */

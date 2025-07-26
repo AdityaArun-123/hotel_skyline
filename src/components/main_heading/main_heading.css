@@ -1,0 +1,146 @@
+.main-heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.heading {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.6rem;
+    font-family: headingFontStyle;
+    text-transform: uppercase;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    position: relative;
+    text-align: center;
+}
+
+.heading::after {
+    content: '';
+    background-image: url('/public/Gallery/Main Heading Fancy Underline Image.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    position: absolute;
+    bottom: -18px;
+    left: -8%;
+    width: 115%;
+    height: 20px;
+}
+
+@media only screen and (max-width : 1400px) {
+    .heading {
+        font-size: 2.1rem;
+    }
+
+    .heading::after {
+        bottom: -18px;
+        left: -6%;
+        width: 112%;
+        height: 15px;
+    }
+}
+
+@media only screen and (max-width : 900px) {
+
+    .heading {
+        font-size: 1.8rem;
+        word-spacing: 2px;
+        letter-spacing: normal;
+    }
+
+    .heading::after {
+        bottom: -13px;
+    }
+}
+
+@media only screen and (max-width : 650px) {
+
+    .heading {
+        font-size: 1.6rem;
+        word-spacing: normal;
+    }
+}
+
+@media only screen and (max-width : 540px) {
+    .main-heading-container {
+        margin-bottom: 25px;
+    }
+
+    .heading {
+        font-size: 1.4rem;
+    }
+
+    .heading::after {
+        bottom: -9px;
+        left: -4%;
+        width: 108%;
+        height: 12px;
+    }
+}
+
+@media only screen and (max-width : 440px) {
+
+    .main-heading-container {
+        margin-bottom: 18px;
+    }
+
+    .heading {
+        font-size: 1.3rem;
+    }
+
+    .heading::after {
+        bottom: -8px;
+        height: 8px;
+    }
+}
+
+@media only screen and (max-width : 390px) {
+
+    .heading {
+        font-size: 1.1rem;
+    }
+
+    .heading::after {
+        left: -2%;
+        width: 105%;
+    }
+}
+
+@media only screen and (max-width : 340px) {
+
+    .main-heading-container {
+        width: 230px;
+        margin-inline: auto;
+    }
+
+    .heading {
+        text-align-last: center;
+    }
+
+    .heading::after {
+        bottom: -10px;
+    }
+}
+
+@media only screen and (max-width : 255px) {
+    .main-heading-container {
+        width: 200px;
+    }
+
+    .heading {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .heading::after {
+        bottom: -10px;
+        width: 98%;
+        left: 2%;
+    }
+}

@@ -1,0 +1,282 @@
+nav a {
+    text-decoration: none;
+    color: var(--header-footer-text-primary-color);
+    display: block;
+}
+
+nav li:hover,
+nav a:hover {
+    background-color: var(--header-footer-text-hover-color);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background-color: var(--header-footer-bg-color);
+    font-size: 1.1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    padding-inline: 4%;
+    color: var(--header-footer-text-primary-color);
+}
+
+.logo {
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.logo span {
+    color: var(--text-primary-color);
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background-color: var(--header-footer-bg-color);
+}
+
+.nav-links {
+    background-color: var(--header-footer-bg-color);
+    color: var(--header-footer-text-primary-color);
+}
+
+.nav-links ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.2rem;
+}
+
+.nav-links ul a,
+.nav-links ul li {
+    padding: 10px 12px;
+    list-style: none;
+    cursor: pointer;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+
+.nav-links ul .accordian i {
+    margin-left: 10px;
+    transform: rotate(0deg);
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-links ul .accordian i.rotate {
+    transform: rotate(180deg);
+}
+
+.nav-links ul .accordian {
+    position: relative;
+}
+
+.nav-links ul .accordian .sub-menu1,
+.nav-links ul .accordian .sub-menu2 {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    width: 260px;
+    padding: 15px 10px;
+    background-color: var(--header-footer-bg-color);
+    position: absolute;
+    top: 100%;
+    left: -15px;
+    animation: headerDropDownAnimation 0.9s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.nav-links ul .accordian .sub-menu1.active,
+.nav-links ul .accordian .sub-menu2.active {
+    opacity: 1;
+    visibility: visible;
+    display: block;
+}
+
+.nav-links ul .accordian .sub-menu1 a,
+.nav-links ul .accordian .sub-menu2 a {
+    padding: 15px 12px;
+}
+
+.sign-up-btn {
+    background-color: var(--header-footer-bg-color);
+    color: var(--header-footer-text-primary-color);
+}
+
+.sign-up {
+    padding: 8px 20px;
+    font-size: 1rem;
+}
+
+.sign-up-btn .common-button-2:hover {
+    color: var(--header-footer-bg-color) !important;
+}
+
+hr {
+    display: none;
+}
+
+@keyframes headerDropDownAnimation {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    100% {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@media only screen and (min-width : 1101px) and (max-width : 1200px) {
+    .sign-up {
+        padding: 8px 12px;
+    }
+}
+
+@media only screen and (max-width : 1100px) {
+    nav {
+        height: 60px;
+    }
+
+    .logo {
+        font-size: 1.3rem;
+        word-spacing: 0;
+    }
+
+    .nav-bar {
+        position: absolute;
+        top: 60px;
+        right: -100%;
+        flex-direction: column-reverse;
+        gap: 1rem;
+        width: 100%;
+        max-height: 100vh;
+        height: 100vh;
+        transition: right 0.2s ease-in-out;
+        align-items: initial;
+        justify-content: initial;
+        padding-bottom: 50px;
+    }
+
+    .nav-bar.active {
+        right: 0;
+    }
+
+    .nav-links {
+        max-height: 100vh;
+        height: 100vh;
+        overflow: scroll;
+        padding-bottom: 50px;
+    }
+
+    .nav-links ul {
+        align-items: initial;
+        justify-content: initial;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .nav-links ul li,
+    .nav-links ul a {
+        padding: 12px 6%;
+        font-size: 1rem;
+        background-color: var(--header-footer-bg-color);
+    }
+
+    .nav-links ul .accordian i {
+        position: absolute;
+        right: 4%;
+    }
+
+    .nav-links ul .accordian .sub-menu1,
+    .nav-links ul .accordian .sub-menu2 {
+        position: initial;
+        width: 100%;
+        padding: 15px 0 0 0;
+    }
+
+    .nav-links ul .accordian .sub-menu1 a,
+    .nav-links ul .accordian .sub-menu2 a {
+        padding: 12px 0;
+        font-size: 1rem;
+    }
+
+    .sign-up-btn {
+        height: 130px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--header-footer-text-hover-color);
+    }
+
+    .sign-up {
+        width: 180px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.06rem;
+    }
+
+    hr {
+        display: block;
+        width: 100%;
+        color: var(--header-footer-text-primary-color);
+    }
+}
+
+@media only screen and (min-width : 600px) and (max-width : 1100px) {
+    .nav-bar {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width : 1270px) and (max-width : 1380px) {
+    .nav-links ul {
+        gap: 1rem;
+    }
+}
+
+@media only screen and (min-width : 1050px) and (max-width : 1270px) {
+    nav {
+        font-size: 1rem;
+    }
+
+    .nav-bar {
+        gap: 20px;
+    }
+
+    .nav-links ul {
+        gap: 0.5rem;
+    }
+}
+
+@media only screen and (max-width : 270px) {
+    .sign-up {
+        width: 140px;
+        font-size: 0.88rem;
+    }
+}
+
+@media only screen and (max-width : 1005px) {
+    .sign-up-btn .common-button-2,
+    .sign-up-btn .common-button-2:hover {
+        background-color: var(--header-footer-bg-color) !important;
+        color: var(--header-footer-text-primary-color) !important;
+        border: 2px solid var(--header-footer-text-primary-color);
+    }
+    .sign-up-btn .common-button-2:hover::after{
+        width: 0;
+        height: 0;
+    }
+}

@@ -1,0 +1,273 @@
+.footer-container {
+    background-color: var(--header-footer-bg-color);
+    color: var(--header-footer-text-primary-color);
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+.footer {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 4%;
+    display: flex;
+    gap: 5%;
+    font-size: 1.25rem;
+    font-weight: 100;
+}
+
+.footer li {
+    list-style: none;
+    padding-left: 22px;
+    text-indent: -10px;
+}
+
+.footer .contact-info h5 {
+    margin-bottom: 7%;
+}
+
+.footer h5 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-bottom: 10%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.footer h5:first-child span {
+    color: var(--text-primary-color);
+}
+
+.about-hotel {
+    width: 30%;
+    line-height: 1.8rem;
+}
+
+.quick-links {
+    width: 20%;
+    line-height: 1.8rem;
+}
+
+.quick-links li,
+.customer-help li {
+    margin-bottom: 8px;
+}
+
+.quick-links a,
+.customer-help a {
+    text-decoration: none;
+    color: var(--header-footer-text-primary-color);
+    position: relative;
+}
+
+.quick-links a::after,
+.customer-help a::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--text-primary-color);
+    transition: width 0.2s ease-in-out;
+}
+
+.quick-links a:hover::after,
+.customer-help a:hover::after {
+    width: 100%;
+}
+
+.customer-help {
+    width: 25%;
+    line-height: 1.8rem;
+}
+
+.contact-info {
+    width: 30%;
+    line-height: 1.8rem;
+}
+
+.footer .contact-info li {
+    margin-bottom: 10px;
+}
+
+.footer-right-arrow {
+    font-size: 1rem;
+    margin-right: 10px;
+    color: var(--text-primary-color);
+}
+
+.social-links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin-block: 2%;
+}
+
+.social-links li {
+    width: 45px;
+    height: 45px;
+    border: 2px solid var(--header-footer-text-primary-color);
+    display: flex;
+    border-radius: 2rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.social-links li:hover {
+    border: 2px solid var(--text-primary-color);
+    color: var(--text-primary-color);
+}
+
+.copyright {
+    width: 100%;
+    margin: 0 auto 20px auto;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.copyright span {
+    font-size: 1.1rem;
+    font-family: paragraphFontStyle;
+    color: var(--text-primary-color);
+}
+
+@media only screen and (max-width : 1100px) {
+
+    .footer-container {
+        padding-top: 20px;
+    }
+
+    .footer {
+        width: 100%;
+        padding-left: 7%;
+        padding-right: 6%;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 0.7rem;
+    }
+
+    .about-hotel,
+    .quick-links,
+    .customer-help,
+    .contact-info {
+        width: 100%;
+        line-height: 1.8rem;
+    }
+
+    .footer h5 {
+        margin-bottom: 3%;
+    }
+
+    .footer .contact-info h5 {
+        margin-bottom: 3%;
+    }
+
+    .footer-right-arrow {
+        margin-right: 8px;
+    }
+
+    .contact-info i {
+        margin-top: 8px;
+    }
+
+    .social-links {
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+}
+
+@media only screen and (min-width : 650px) and (max-width : 1100px) {
+    .footer {
+        font-size: 1.05rem;
+    }
+}
+
+@media only screen and (max-width : 650px) {
+
+    .footer {
+        font-size: 1.05rem;
+        padding-top: 25px;
+    }
+}
+
+@media only screen and (min-width : 1100px) and (max-width : 1600px) {
+
+    .footer {
+        width: 85%;
+        font-size: 1.1rem;
+        gap: 4%;
+    }
+
+    .footer h5 {
+        font-size: 1.28rem;
+    }
+}
+
+@media only screen and (max-width : 440px) {
+    .footer h5 {
+        font-size: 1.35rem;
+    }
+
+    .footer {
+        font-size: 1rem;
+    }
+
+    .footer-right-arrow {
+        font-size: 0.9rem;
+    }
+
+    .social-links li {
+        width: 35px;
+        height: 35px;
+        font-size: 1rem;
+    }
+
+    .copyright {
+        font-size: 0.9rem;
+    }
+
+    .copyright span {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width : 250px) {
+    .footer h5 {
+        font-size: 1.25rem;
+    }
+
+    .footer {
+        font-size: 0.9rem;
+    }
+
+    .quick-links li,
+    .customer-help li {
+        margin-bottom: 4px;
+    }
+
+    .footer .contact-info li {
+        margin-bottom: 6px;
+    }
+
+    .footer-right-arrow {
+        font-size: 0.8rem;
+    }
+
+    .social-links li {
+        width: 30px;
+        height: 30px;
+        font-size: 0.9rem;
+    }
+
+    .copyright {
+        font-size: 0.8rem;
+    }
+
+    .copyright span {
+        font-size: 0.9rem;
+    }
+}

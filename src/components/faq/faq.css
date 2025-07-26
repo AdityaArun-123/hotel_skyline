@@ -1,0 +1,153 @@
+.faq-sub-heading {
+    width: 70%;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 auto 50px auto;
+    line-height: 1.6rem;
+}
+
+.faq-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 4vw;
+}
+
+.faq-content .content-1 {
+    min-width: 40%;
+}
+
+.faq-content .content-2 {
+    min-width: 52%;
+}
+
+.content-1 img {
+    width: 100%;
+    height: 400px;
+    border: 2px solid var(--banner-bg-color);
+}
+
+.faq-accordian {
+    padding: 5px 10px;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px 1px var(--banner-bg-color);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 2rem;
+}
+
+.faq-accordian .question {
+    font-size: 1rem;
+    font-family: paragraphFontStyle;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.faq-accordian .question i {
+    transform: rotate(0deg);
+    transition: all 0.5s ease-in-out;
+}
+
+.faq-accordian .question i.rotate {
+    transform: rotate(180deg);
+}
+
+.faq-accordian .answer {
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: #666;
+    line-height: 1.5rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0, 1, 0, 1);
+}
+
+.faq-accordian .answer.show {
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.6s cubic-bezier(1, 0, 1, 0);
+}
+
+@media only screen and (max-width : 1350px) {
+    .faq-content .content-2 {
+        min-width: 58%;
+    }
+
+    .content-1 img {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width : 1230px) {
+    .faq-sub-heading {
+        width: 80%;
+        font-size: 1.1rem;
+    }
+
+    .faq-accordian .question {
+        font-size: 0.9rem;
+    }
+
+    .faq-accordian .answer {
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+    }
+}
+
+@media only screen and (max-width : 920px) {
+    .faq-content {
+        flex-direction: column;
+        justify-content: initial;
+        gap: 10px;
+    }
+
+    .faq-sub-heading {
+        width: 80%;
+        margin: 16px auto 10px auto;
+    }
+
+    .faq-content .content-1 {
+        width: 100%;
+    }
+
+    .faq-content .content-2 {
+        width: 100%;
+    }
+
+    .content-1 img {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width : 500px) {
+    .faq-sub-heading {
+        font-size: 0.8rem;
+        line-height: 1.1rem;
+        width: 100%;
+        margin: 28px 0 15px 0;
+    }
+
+    .faq-accordian {
+        line-height: 1.3rem;
+    }
+
+    .faq-accordian .question {
+        gap: 16px;
+    }
+
+    .content-1 img {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width : 320px){
+    .about-us-hotel {
+        margin-bottom: 20px;
+    }
+}

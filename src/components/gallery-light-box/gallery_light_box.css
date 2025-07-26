@@ -1,0 +1,252 @@
+.gallery-light-box-container,
+.rooms-light-box-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    background-color: rgb(0, 0, 0);
+}
+
+.light-box-content,
+.rooms-light-box-content {
+    width: 65%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1010;
+    transform: translate(-50%, -50%);
+    padding: 50px 15px 30px 15px;
+    background-color: var(--banner-bg-color);
+    border-radius: 15px;
+}
+
+.light-box-content .light-box-close-btn i,
+.rooms-light-box-content .rooms-light-box-close-btn i {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    font-size: xx-large;
+    font-weight: lighter;
+    color: var(--button-text-primary-color);
+    border-radius: 50%;
+}
+
+.mySwiper2,
+.mySwiper55 {
+    margin-bottom: 50px;
+    margin-inline: 8% !important;
+    height: 550px !important;
+}
+
+.mySwiper2 img,
+.mySwiper55 img {
+    width: 100%;
+    height: 100%;
+}
+
+.mySwiper21,
+.mySwiper56 {
+    margin-inline: 1.8%;
+    height: 120px !important;
+}
+
+.mySwiper21 img,
+.mySwiper56 img {
+    width: 100%;
+    height: 100%;
+}
+
+.light-box-content .swiper-button-prev,
+.light-box-content .swiper-button-next,
+.rooms-light-box-content .swiper-button-prev,
+.rooms-light-box-content .swiper-button-next {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+    position: absolute !important;
+    top: 45% !important;
+    transform: translateY(-45%) !important;
+}
+
+.light-box-content .swiper-button-prev,
+.rooms-light-box-content .swiper-button-prev {
+    left: 30px !important;
+}
+
+.light-box-content .swiper-button-next,
+.rooms-light-box-content .swiper-button-next {
+    right: 30px !important;
+}
+
+.light-box-content .swiper-button-prev:after,
+.light-box-content .swiper-button-next:after,
+.rooms-light-box-content .swiper-button-prev:after,
+.rooms-light-box-content .swiper-button-next:after {
+    font-size: 20px !important;
+    font-weight: 900;
+}
+
+.mySwiper21 .swiper-wrapper div:not(.swiper-slide-thumb-active),
+.mySwiper56 .swiper-wrapper div:not(.swiper-slide-thumb-active) {
+    filter: brightness(45%) !important;
+}
+
+.mySwiper21 .swiper-slide-thumb-active,
+.mySwiper56 .swiper-slide-thumb-active {
+    border: 2px solid var(--text-primary-color);
+}
+
+@media only screen and (max-width : 1900px) {
+
+    .mySwiper2,
+    .mySwiper55 {
+        margin-bottom: 20px;
+        height: 415px !important;
+    }
+}
+
+@media only screen and (max-width : 1700px) {
+
+    .light-box-content .swiper-button-prev,
+    .rooms-light-box-content .swiper-button-prev {
+        left: 20px !important;
+    }
+
+    .light-box-content .swiper-button-next,
+    .rooms-light-box-content .swiper-button-next {
+        right: 20px !important;
+    }
+}
+
+@media only screen and (max-width : 1380px) {
+
+    .light-box-content,
+    .rooms-light-box-content {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width : 1150px) {
+
+    .mySwiper2,
+    .mySwiper55 {
+        margin-inline: 10%;
+        margin-bottom: 30px;
+        height: 450px !important;
+    }
+
+    .mySwiper21,
+    .mySwiper56 {
+        height: 100px !important;
+    }
+
+    .light-box-content .swiper-button-prev,
+    .light-box-content .swiper-button-next,
+    .rooms-light-box-content .swiper-button-prev,
+    .rooms-light-box-content .swiper-button-next {
+        width: 35px !important;
+        height: 35px !important;
+    }
+
+    .light-box-content .swiper-button-prev,
+    .rooms-light-box-content .swiper-button-prev {
+        left: 15px !important;
+    }
+
+    .light-box-content .swiper-button-next,
+    .rooms-light-box-content .swiper-button-next {
+        right: 15px !important;
+    }
+
+    .light-box-content .swiper-button-prev:after,
+    .light-box-content .swiper-button-next:after,
+    .rooms-light-box-content .swiper-button-prev:after,
+    .rooms-light-box-content .swiper-button-next:after {
+        font-size: 15px !important;
+    }
+}
+
+@media only screen and (max-width : 800px) {
+
+    .light-box-content,
+    .rooms-light-box-content {
+        width: 85%;
+    }
+
+    .light-box-content .light-box-close-btn i .rooms-light-box-content .rooms-light-box-close-btn i {
+        font-size: x-large;
+    }
+
+    .mySwiper2,
+    .mySwiper55 {
+        margin-inline: 6%;
+        margin-bottom: 30px;
+        height: 400px !important;
+    }
+
+    .light-box-content .swiper-button-prev,
+    .rooms-light-box-content .swiper-button-prev {
+        left: 2% !important;
+    }
+
+    .light-box-content .swiper-button-next,
+    .rooms-light-box-content .swiper-button-next {
+        right: 2% !important;
+    }
+}
+
+@media only screen and (max-width : 440px) {
+
+    .light-box-content,
+    .rooms-light-box-content {
+        width: 100%;
+        padding: 50px 10px 22px 10px;
+    }
+
+    .light-box-content .light-box-close-btn i,
+    .rooms-light-box-content .rooms-light-box-close-btn i {
+        font-size: larger;
+    }
+
+    .mySwiper2,
+    .mySwiper55 {
+        height: 240px !important;
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+        margin-bottom: 15px;
+    }
+
+    .mySwiper21,
+    .mySwiper56 {
+        margin-inline: 4%;
+        height: 75px !important;
+    }
+
+    .light-box-content .swiper-button-prev,
+    .rooms-light-box-content .swiper-button-prev {
+        left: 1% !important;
+    }
+
+    .light-box-content .swiper-button-next,
+    .rooms-light-box-content .swiper-button-next {
+        right: 1% !important;
+    }
+
+    .light-box-content .swiper-button-prev,
+    .light-box-content .swiper-button-next,
+    .rooms-light-box-content .swiper-button-prev,
+    .rooms-light-box-content .swiper-button-next {
+        width: 22px !important;
+        height: 22px !important;
+    }
+
+    .light-box-content .swiper-button-prev:after,
+    .light-box-content .swiper-button-next:after,
+    .rooms-light-box-content .swiper-button-prev:after,
+    .rooms-light-box-content .swiper-button-next:after {
+        font-size: 12px !important;
+    }
+}

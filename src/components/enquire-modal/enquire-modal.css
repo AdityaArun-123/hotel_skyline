@@ -1,0 +1,180 @@
+.enquire-modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.442);
+}
+
+.enquire-modal-content {
+    width: 450px;
+    height: fit-content;
+    background: var(--button-text-primary-color);
+    border-radius: 10px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1010;
+    transform: translate(-50%, -50%);
+    padding: 35px 25px;
+}
+
+.enquire-modal-content h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.enquire-modal-content p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin: 12px 0 25px 0;
+    color: #666;
+}
+
+.enquire-modal-content form div {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 32px;
+    position: relative;
+}
+
+.enquire-modal-content form div .enquiry-input {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 2px solid var(--banner-bg-color);
+    background-color: transparent;
+    padding-left: 20px;
+    outline: none;
+    font-size: 0.95rem;
+}
+
+.enquire-modal-content form div label {
+    position: absolute;
+    top: 0.65rem;
+    left: 1.3rem;
+    z-index: 5;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #666;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+    cursor: text;
+    padding-inline: 5px;
+}
+
+.enquire-modal-content form div .enquiry-input:focus {
+    border: 2px solid var(--text-primary-color);
+}
+
+.enquire-modal-content form div .enquiry-input:focus~label,
+.enquire-modal-content form div .enquiry-input:not(:placeholder-shown).enquiry-input:not(:focus)~label {
+    top: -0.5rem;
+    left: 1rem;
+    font-size: 0.9rem;
+    background-color: var(--button-text-primary-color);
+}
+
+.enquire-modal-content form .enquiry-submit-btn {
+    width: 100%;
+    height: 38px;
+    font-size: 1.1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: transparent;
+}
+
+.enquire-modal-content .enquiry-close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+@media only screen and (max-width : 480px) {
+    .enquire-modal-content {
+        width: 300px;
+        padding: 35px 15px 15px 15px;
+    }
+
+    .enquire-modal-content h3 {
+        font-size: 16px;
+    }
+
+    .enquire-modal-content p {
+        margin: 12px 0 15px 0;
+        font-size: 0.9rem;
+    }
+
+    .enquire-modal-content form div {
+        height: 38px;
+        margin-bottom: 20px;
+    }
+
+    .enquire-modal-content form div label {
+        top: 0.5rem;
+        font-size: 0.9rem;
+        padding-inline: 5px;
+    }
+
+    .enquire-modal-content form div .enquiry-input:focus~label,
+    .enquire-modal-content form div .enquiry-input:not(:placeholder-shown).enquiry-input:not(:focus)~label {
+        top: -0.45rem;
+        font-size: 0.75rem;
+    }
+
+    .enquire-modal-content form .enquiry-submit-btn {
+        height: 32px;
+        font-size: 0.9rem;
+    }
+    
+    .enquire-modal-content .enquiry-close-btn {
+        font-size: medium;
+    }
+}
+
+@media only screen and (max-width : 320px) {
+    .enquire-modal-content {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width : 260px) {
+    .enquire-modal-content {
+        width: 200px;
+        padding: 35px 8px 15px 8px;
+    }
+
+    .enquire-modal-content h3 {
+        font-size: 14px;
+    }
+
+    .enquire-modal-content p {
+        font-size: 0.7rem;
+        margin: 12px 0 18px 0;
+    }
+
+    .enquire-modal-content form div {
+        height: 35px;
+    }
+
+    .enquire-modal-content form div .enquiry-input {
+        font-size: 0.88rem;
+    }
+
+    .enquire-modal-content form div label {
+        top: 0.55rem;
+        font-size: 0.8rem;
+    }
+
+    .enquire-modal-content form div .enquiry-input:focus~label,
+    .enquire-modal-content form div .enquiry-input:not(:placeholder-shown).enquiry-input:not(:focus)~label {
+        font-size: 0.7rem;
+    }
+}

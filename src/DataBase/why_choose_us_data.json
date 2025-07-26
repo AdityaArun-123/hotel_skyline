@@ -1,0 +1,37 @@
+[
+    {
+        "id" : "1",
+        "image" : "/Gallery/Why Choose Us Images/why-choose-us-num-1.png",
+        "head" : "The Staff",
+        "sub_head" : "Why choose us? 'You will feel at home'",
+        "desc" : "Our goal is to make your holidays in Sicily exciting and unforgettable. We have fun creating your holiday itinerary with you by studying it and personalizing it based on your preferences. It gives us joy to create relationships made of friendship and respect, pleasant chats and real smiles. Our reception staff likes to fulfill your wishes and, if possible, even anticipate them."
+    },
+    {
+        "id" : "2",
+        "image" : "/Gallery/Why Choose Us Images/why-choose-us-num-2.png",
+        "head" : "Our Hotel",
+        "sub_head" : "Why choose us? 'charm, quality services and great attention to cleanliness'",
+        "desc" : "Some of our guests have used adjectives that really flatter us: Corner of Paradise - Oasis of peace - Charming address - Beautiful and with a soul. We believe that the merit of this lies in the fact that every year we try to keep both the rooms and the common areas as well looked after as possible. It's the details that make the difference, the heart that makes it unique. Our housekeeper knows well how important cleanliness and hygiene are in a hotel, which is why she carries out a thorough check in each room every day to ensure everything is as it should."
+    },
+    {
+        "id" : "3",
+        "image" : "/Gallery/Why Choose Us Images/why-choose-us-num-3.png",
+        "head" : "Catering",
+        "sub_head" : "Why choose us? 'Amazing breakfasts' and 'Delicious dinners'",
+        "desc" : "I'll tell you an anecdote about breakfasts: it happened that more than one guest, after observing the variety of our buffet, looked at us and let out an amused laugh... It's really a lot!. I always say this to the restaurant manager, the soul and creator of our breakfasts, that he will drive me bankrupt, but he replies that otherwise I will reproach him for the fact that the buffet is sad. The Chef always strikes me with his humility and availability, I have never heard him say no to guests' requests. Every evening he receives many compliments and every evening he blushes. Going to the market every morning at dawn to secure the freshest fish, the most unique cheeses, the tastiest fruit, has become a ritual for us. To make everything more pleasant the friendliness of our restaurant staff."
+    },
+    {
+        "id" : "4",
+        "image" : "/Gallery/Why Choose Us Images/why-choose-us-num-4.png",
+        "head" : "The Position",
+        "sub_head" : "Why choose us? 'close to the city, away from the chaos'",
+        "desc" : "If you like staying in the city we are not the hotel you are looking for ;), but if you want a place surrounded by nature, just 7km from the centre, with an enchanting swimming pool, where you don't have to wake up at dawn to grab a sunbed, where you don't you have the problem of finding a parking space for your car, then you have found what you are looking for. We recommend renting a car to have the opportunity to explore the beautiful surroundings, otherwise we have a shuttle service (starting from €5.00) into the city (12 minutes)."
+    },
+    {
+        "id" : "5",
+        "image" : "/Gallery/Why Choose Us Images/why-choose-us-num-5.png",
+        "head" : "The Reviews",
+        "sub_head" : "Why choose us? 'your smile is our energy'",
+        "desc" : "This is the motto of our hotel, the essence of our commitment. We have been awarded several times by Tripadvisor with the Travelers' Choice which awarded us 9th place among the 25 best hotels in Italy. I laughed until I cried when I saw that the director had plastered the letterhead, all the social networks, the email signature and the website with huge banners of the awards received. I asked him to put them at least a little smaller, but he didn't want to listen to reason: the passion we put into our hospitality deserves to be highlighted! Obviously our joy is immense, we are all so excited, so happy, even scared…"
+    }
+]

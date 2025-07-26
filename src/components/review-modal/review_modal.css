@@ -1,0 +1,202 @@
+.review-modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.442);
+}
+
+.write-review-content {
+    width: 30%;
+    height: 63vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1010;
+    transform: translate(-50%, -50%);
+    padding: 55px 2%;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow-y: auto;
+}
+
+.write-review-heading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.write-review-content form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.write-review-content form label {
+    font-size: 1.05rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.write-review-content form input,
+.write-review-content textarea {
+    padding: 10px 7px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 2px solid #192a56;
+    outline: none;
+}
+
+.write-review-content form input:focus,
+.write-review-content textarea:focus {
+    border: 2px solid var(--text-primary-color);
+}
+
+.write-review-content input,
+.write-review-content input::placeholder,
+.write-review-content textarea,
+.write-review-content textarea::placeholder {
+    font-size: 1.02rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.write-review-content textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.write-review-content form .post-review-btn {
+    height: 45px;
+    margin-top: 20px;
+    font-size: larger;
+    background-color: transparent;
+}
+
+.review-modal-close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+@media only screen and (max-width : 1750px) {
+    .write-review-content {
+        width: 32.5%;
+        height: 78vh;
+        padding: 30px 2%;
+    }
+
+    .write-review-heading {
+        margin-top: 14px;
+    }
+
+    .write-review-content form {
+        margin-top: 26px;
+    }
+}
+
+@media only screen and (max-width : 1400px) {
+    .write-review-content {
+        width: 35.5%;
+    }
+
+    .write-review-heading {
+        font-size: 1.53rem;
+    }
+}
+
+@media only screen and (max-width : 1100px) {
+    .write-review-content {
+        width: 54%;
+    }
+
+    .write-review-heading {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width : 840px) {
+    .write-review-content {
+        width: 66%;
+        height: 66vh;
+        padding: 45px 3%;
+    }
+
+    .write-review-heading {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width : 550px) {
+    .write-review-content {
+        width: 85%;
+        height: fit-content;
+        padding: 30px 3%;
+    }
+
+    .write-review-heading {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width : 440px) {
+    .write-review-content {
+        width: 90%;
+        height: fit-content;
+        padding: 20px 5%;
+    }
+
+    .write-review-heading {
+        font-size: 1.26rem;
+        margin-top: 35px;
+    }
+
+    form label {
+        font-size: 0.95rem;
+    }
+
+    input,
+    input::placeholder,
+    textarea,
+    textarea::placeholder {
+        font-size: 0.8rem;
+    }
+
+    form .post-review-btn {
+        margin-top: 10px;
+        font-size: large;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width : 340px) {
+
+    .write-review-content {
+        width: 95%;
+        padding: 20px 3%;
+    }
+
+    .write-review-heading {
+        font-size: 1.12rem;
+        margin-top: 35px;
+    }
+
+    form label {
+        font-size: 0.8rem;
+        margin-bottom: 8px;
+    }
+
+    input,
+    input::placeholder,
+    textarea,
+    textarea::placeholder {
+        font-size: 0.75rem;
+    }
+}

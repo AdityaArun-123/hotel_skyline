@@ -1,0 +1,190 @@
+.offers-landing-page-container {
+    padding-inline: 15%;
+    margin-top: 130px;
+}
+
+.offer-card {
+    margin-block: 50px;
+    padding: 20px 60px;
+    border: 4px solid var(--banner-bg-color);
+    border-radius: 15px;
+}
+
+.offer-card .offer-img {
+    width: 40%;
+    height: 30%;
+    margin: auto;
+}
+
+.offer-card .offer-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.offer-card .card-head {
+    font-size: 1.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin: 15px 0 20px 0;
+}
+
+.offer-card .card-content .card-sub-head {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 18px;
+    line-height: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.card-content li {
+    font-size: 1.15rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding-left: 35px;
+    text-indent: -28px;
+}
+
+.card-content h1 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: var(--banner-bg-color);
+    margin-top: 30px;
+}
+
+.card-content span {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(144, 140, 140);
+    text-align: center;
+    margin-top: 15px;
+}
+
+@media only screen and (max-width : 1050px) {
+    .offers-landing-page-container {
+        padding-inline: 4%;
+        margin-top: 85px;
+    }
+
+    .offer-card {
+        margin-block: 50px;
+        padding: 20px;
+    }
+
+    .offer-card .card-head {
+        font-size: 1.4rem;
+    }
+
+    .offer-card .card-content .card-sub-head {
+        font-size: 1.05rem;
+        margin-bottom: 15px;
+        line-height: 25px;
+    }
+
+    .card-content li {
+        font-size: 1.05rem;
+        text-indent: -24px;
+    }
+
+    .card-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .card-content span {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width : 440px) {
+    .offer-card {
+        padding: 15px;
+        margin-block: 35px;
+    }
+
+    .offer-card .card-head {
+        font-size: 1.35rem;
+    }
+
+    .offer-card .card-content .card-sub-head {
+        font-size: 0.94rem;
+        line-height: 20px;
+    }
+
+    .card-content li {
+        font-size: 0.88rem;
+        text-indent: -19px;
+    }
+
+    .card-content h1 {
+        font-size: 1.3rem;
+    }
+
+    .card-content span {
+        font-size: 0.88rem;
+    }
+}
+
+@media only screen and (max-width : 330px) {
+
+    .offers-landing-page-container {
+        padding-inline: 2.5%;
+    }
+    .offer-card {
+        padding: 15px 10px;
+    }
+
+    .offer-card .card-head {
+        font-size: 1rem;
+    }
+
+    .offer-card .card-content .card-sub-head {
+        font-size: 0.7rem;
+        line-height: 17px;
+    }
+
+    .card-content li {
+        font-size: 0.75rem;
+    }
+
+    .card-content h1 {
+        font-size: 1.2rem;
+    }
+
+    .card-content span {
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (max-width : 230px) {
+
+    .offer-card .card-head {
+        font-size: 1rem;
+        text-align: center;
+        text-align-last: center;
+    }
+
+    .card-content h1 {
+        font-size: 1.05rem;
+    }
+
+    .card-content span {
+        font-size: 0.65rem;
+    }
+}
+
+@media only screen and (min-width : 750px) and (max-width : 1100px) {
+    .offers-landing-page-container {
+        padding-inline: 8%;
+    }
+}
+
+@media only screen and (min-width : 1100px) and (max-width : 1600px) {
+    .offers-landing-page-container {
+        padding-inline: 12%;
+    }
+}

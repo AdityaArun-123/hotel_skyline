@@ -1,0 +1,214 @@
+.calender-modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.442);
+}
+
+.calender-modal-content {
+    width: 450px;
+    height: 470px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1010;
+    transform: translate(-50%, -50%);
+    padding: 35px 0 0 0;
+}
+
+.calender-modal-content .header-and-navigating-icons {
+    width: 100%;
+    padding: 25px 30px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calender-modal-content .header-and-navigating-icons .current-date {
+    font-size: 1.45rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.header-and-navigating-icons .prev-btn i,
+.next-btn i {
+    font-size: xx-large;
+    color: var(--text-primary-color);
+    cursor: pointer;
+}
+
+.header-and-navigating-icons .prev-btn.deactive i {
+    cursor: not-allowed;
+    color: #818181;
+}
+
+.calendar {
+    padding: 20px;
+}
+
+.calendar ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+}
+
+.calendar li {
+    color: var(--banner-bg-color);
+    width: calc(100% / 7);
+    user-select: none;
+}
+
+.calendar .weeks li {
+    font-size: 1.07rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    cursor: default;
+}
+
+.calendar .days li {
+    z-index: 1;
+    position: relative;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.calendar .days li.dates:not(.inactive) {
+    color: black;
+    cursor: pointer;
+}
+
+.calendar .days li.dates.inactive {
+    color: #a5a5a5;
+}
+
+.days li::before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 50%;
+    height: 40px;
+    width: 40px;
+    z-index: -1;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.days li.dates:not(.inactive):hover:before {
+    background: #f2f2f2;
+}
+
+.calender-modal-content .calender-close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.calender-modal-content .calender-close-btn i {
+    font-size: x-large;
+}
+
+@media only screen and (max-width : 500px) {
+    .calender-modal-content {
+        width: 350px;
+        height: 420px;
+        padding: 30px 0 0 0;
+    }
+
+    .calender-modal-content .header-and-navigating-icons {
+        padding: 25px 20px 10px;
+    }
+
+    .calender-modal-content .header-and-navigating-icons .current-date {
+        font-size: 1.2rem;
+    }
+
+    .header-and-navigating-icons .prev-btn i,
+    .next-btn i {
+        font-size: x-large;
+    }
+
+    .calendar .weeks li {
+        font-size: 1.01rem;
+    }
+
+    .calendar .days li {
+        margin-top: 25px;
+        font-size: 1.02rem;
+    }
+}
+@media only screen and (max-width : 440px) {
+    .calender-modal-content {
+        width: 280px;
+        height: 320px;
+        padding: 20px 0 0 0;
+    }
+
+    .calendar {
+        padding: 8px 15px;
+    }
+
+    .calender-modal-content .header-and-navigating-icons .current-date {
+        font-size: 1rem;
+    }
+
+    .header-and-navigating-icons .prev-btn i,
+    .next-btn i {
+        font-size: large;
+    }
+
+    .calendar .weeks li {
+        font-size: 0.8rem;
+    }
+
+    .calendar .days li {
+        margin-top: 20px;
+        font-size: 0.75rem;
+    }
+
+    .calender-modal-content .calender-close-btn i {
+        font-size: large;
+    }
+}
+
+@media only screen and (max-width : 270px) {
+    .calender-modal-content {
+        width: 200px;
+        height: 260px;
+    }
+
+    .calendar {
+        padding: 6px 12px;
+    }
+
+    .calender-modal-content .header-and-navigating-icons .current-date {
+        font-size: 0.7rem;
+    }
+
+    .header-and-navigating-icons .prev-btn i,
+    .next-btn i {
+        font-size: small;
+    }
+
+    .calendar .weeks li {
+        font-size: 0.65rem;
+    }
+
+    .calendar .days li {
+        margin-top: 14px;
+        font-size: 0.6rem;
+    }
+
+    .calender-modal-content .calender-close-btn i {
+        font-size: small;
+    }
+}

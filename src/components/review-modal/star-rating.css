@@ -1,0 +1,30 @@
+.star-container {
+	margin-block: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.star-container i {
+	font-size: 2rem;
+	width: 16.98px;
+	overflow: hidden;
+	cursor: pointer;
+	color: var(--banner-bg-color);
+}
+
+.star-container span.active i {
+	color: var(--text-primary-color);
+}
+
+@media only screen and (max-width : 1750px) {
+	.star-container i {
+        width: 17.5px;
+	}
+}
+@media only screen and (max-width : 440px) {
+	.star-container i {
+		font-size: 1.5rem;
+        width: 13.5px;
+	}
+}

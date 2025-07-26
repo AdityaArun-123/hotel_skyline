@@ -1,0 +1,52 @@
+[
+    {
+        "id" : "1",
+        "question": "What is Hotel Skyline ?",
+        "answer": "Hotel Skyline is a luxury hotel located in the heart of a bustling city, known for its breathtaking views of the city's skyline."
+    },
+    {
+        "id" : "2",
+        "question": "What amenities does Hotel Skyline offer?",
+        "answer": "Hotel Skyline offers a wide range of amenities including a rooftop pool, spa and fitness center, multiple dining options, conference rooms, and a concierge service."
+    },
+    {
+        "id" : "3",
+        "question": "What types of rooms are available at Hotel Skyline?",
+        "answer": "Hotel Skyline offers a variety of rooms including standard rooms, suites, and penthouses. Each room is elegantly designed and offers stunning views of the city skyline."
+    },
+    {
+        "id" : "4",
+        "question": "Is Hotel Skyline suitable for business travelers?",
+        "answer": "Yes, Hotel Skyline has a business center and offers meeting rooms and conference facilities. The hotel also provides high-speed internet access and other business services."
+    },
+    {
+        "id" : "5",
+        "question": "Are there any special packages or deals offered at Hotel Skyline?",
+        "answer": "Yes, Hotel Skyline offers special packages and deals throughout the year, including romantic getaway packages, family vacation packages, and discounted rates for longer stays."
+    },
+    {
+        "id" : "6",
+        "question": "What sets Hotel Skyline apart from other hotels in the city?",
+        "answer": "Hotel Skyline is known for its exceptional customer service, luxurious amenities, and prime location with stunning views of the city skyline. It also offers a unique blend of modern and traditional design, making it a standout among other hotels in the area."
+    },
+    {
+        "id" : "7",
+        "question": "Can guests host events or weddings at Hotel Skyline?",
+        "answer": "Yes, Hotel Skyline has event spaces and a dedicated team to help plan and host events such as weddings, conferences, and other special occasions."
+    },
+    {
+        "id" : "8",
+        "question": "Is there an on-site restaurant at Hotel Skyline?",
+        "answer": "Yes, Hotel Skyline has multiple on-site restaurants offering a variety of cuisines, from fine dining to casual options."
+    },
+    {
+        "id" : "9",
+        "question": "How can I make a reservation at Hotel Skyline?",
+        "answer": "Reservations can be made online through the hotel's website or by calling their reservation hotline. Guests can also book directly at the hotel's front desk."
+    },
+    {
+        "id" : "10",
+        "question": "Does Hotel Skyline have a loyalty program?",
+        "answer": "Yes, Hotel Skyline offers a loyalty program for frequent guests, where they can earn points for their stay and redeem them for rewards such as free nights, room upgrades, and more."
+    }
+]

@@ -1,0 +1,384 @@
+.book-room-container {
+    width: 60%;
+    margin: 130px auto 60px auto;
+}
+
+.book-room-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.booked-room-img {
+    width: 35%;
+    height: 300px;
+}
+
+.booked-room-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.booked-room-img p {
+    margin-top: 10px;
+    font-size: 0.94rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-decoration-color: var(--banner-bg-color);
+    text-underline-offset: 4px;
+    text-decoration-thickness: 4px;
+    color: var(--banner-bg-color);
+    cursor: pointer;
+}
+
+.booked-room-details {
+    width: fit-content;
+    height: 340px;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.booked-room-details .room-name {
+    font-size: 1.22rem;
+    font-family: paragraphFontStyle;
+    margin-bottom: 7px;
+}
+
+.room-plan-and-price {
+    width: 100%;
+}
+
+.room-plan-and-price .room-plan,
+.room-price {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.room-plan-and-price .room-price {
+    margin-top: 3px;
+}
+
+.room-plan-and-price .room-price span {
+    font-size: 0.95rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.booked-room-plan-info {
+    margin-top: 20px;
+}
+
+.booked-room-plan-info li {
+    list-style: none;
+    font-size: 0.95rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 4px;
+    padding-left: 15px;
+    text-indent: -8px;
+}
+
+.booked-room-plan-info li i {
+    margin-right: 7px;
+}
+
+.booked-room-details button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.booked-room-btns{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.booked-room-btns .booked-room-change-package,
+.booked-room-btns .booked-room-remove-pacakge{
+    font-size: 0.9rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    padding: 10px 14px;
+}
+
+.booked-room-btns .booked-room-remove-pacakge{
+    margin-left: 40px;
+}
+
+.booked-room-warning-msg {
+    width: fit-content;
+    margin-top: 18px;
+}
+
+.booked-room-warning-msg p:first-child {
+    width: fit-content;
+    background-color: rgb(250, 218, 98);
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    padding: 4px 10px;
+    text-transform: capitalize;
+    border-radius: 12px;
+}
+
+.booked-room-warning-msg p:first-child i {
+    font-size: large;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width : 1600px) {
+    .booked-room-img {
+        width: 40%;
+        height: 280px;
+    }
+
+    .booked-room-details {
+        height: 320px;
+    }
+
+    .booked-room-warning-msg {
+        margin-top: 8px;
+    }
+
+    .booked-room-warning-msg p:first-child i {
+        font-size: medium;
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width : 1505px) {
+    .book-room-container {
+        width: 75%;
+    }
+
+    .book-room-content {
+        gap: 20px;
+    }
+
+    .booked-room-img {
+        width: 30%;
+    }
+
+    .booked-room-img p {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width : 1240px) {
+    .book-room-container {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width : 1100px) {
+    .book-room-container {
+        margin : 90px auto 60px auto;
+    }
+}
+
+@media only screen and (max-width : 1000px) {
+    .book-room-container {
+        width: 85%;
+    }
+
+    .booked-room-img {
+        width: 35%;
+    }
+
+    .booked-room-details .room-name{
+        font-size: 1.1rem;
+    }
+
+    .room-plan-and-price .room-plan, .room-price{
+        font-size: 0.85rem;
+    }
+
+    .booked-room-plan-info li {
+        font-size: 0.8rem;
+        margin-bottom: 4px;
+    }
+}
+
+@media only screen and (max-width : 840px) {
+    .book-room-content {
+        gap: 12px;
+    }
+
+    .booked-room-img {
+        width: 35%;
+        height: 200px;
+    }
+
+    .booked-room-img p {
+        font-size: 0.65rem;
+        text-decoration-thickness: 3px;
+    }
+
+    .booked-room-details {
+        height: 260px;
+    }
+
+    .booked-room-details .room-name {
+        font-size: 0.98rem;
+    }
+
+    .room-plan-and-price .room-plan,
+    .room-price {
+        font-size: 0.82rem;
+    }
+
+    .booked-room-plan-info li {
+        font-size: 0.7rem;
+    }
+
+    .booked-room-warning-msg p:first-child {
+        font-size: 0.75rem;
+    }
+
+    .booked-room-warning-msg p:first-child i {
+        font-size: small;
+    }
+
+    .booked-room-btns .booked-room-change-package,
+    .booked-room-btns .booked-room-remove-pacakge {
+        font-size: 0.8rem;
+        padding: 8px 12px;
+    }
+}
+
+@media only screen and (max-width : 660px) {
+    .book-room-container {
+        width: 95%;
+    }
+
+    .booked-room-img p {
+        font-size: 0.6rem;
+        margin-top: 5px;
+    }
+
+    .room-plan-and-price .room-plan,
+    .room-price {
+        font-size: 0.77rem;
+    }
+}
+
+@media only screen and (max-width : 555px) {
+    .book-room-container {
+        width: 90%;
+    }
+
+    .book-room-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .booked-room-img {
+        width: 100%;
+        height: 160px;
+    }
+
+    .booked-room-details {
+        width: 100%;
+        height: 220px;
+        margin-top: 20px;
+        padding-left: 8px;
+    }
+
+    .booked-room-details .room-name {
+        font-size: 0.95rem;
+    }
+
+    .room-plan-and-price .room-plan,
+    .room-price {
+        font-size: 0.7rem;
+    }
+
+    .room-plan-and-price .room-price span {
+        font-size: 0.72rem;
+    }
+
+    .booked-room-plan-info{
+        margin-top: 10px;
+    }
+
+    .booked-room-plan-info li {
+        font-size: 0.65rem;
+    }
+
+    .booked-room-warning-msg p:first-child {
+        font-size: 0.65rem;
+    }
+
+    .booked-room-warning-msg p:first-child i {
+        font-size: small;
+    }
+
+    .booked-room-btns{
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width : 440px) {
+    .booked-room-btns{
+        justify-content: space-between;
+    }
+
+    .booked-room-btns .booked-room-remove-pacakge{
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width : 385px) {
+    .booked-room-details {
+        padding-left: 8px;
+    }
+
+    .booked-room-img p {
+        font-size: 0.6rem;
+    }
+}
+
+@media only screen and (max-width : 295px) {
+    .booked-room-details {
+        padding-left: 0;
+    }
+
+    .booked-room-details .room-name {
+        font-size: 0.75rem;
+    }
+
+    .room-plan-and-price .room-plan,
+    .room-price {
+        font-size: 0.5rem;
+    }
+
+    .room-plan-and-price .room-price span {
+        font-size: 0.55rem;
+    }
+
+    .booked-room-plan-info li {
+        font-size: 0.6rem;
+    }
+
+    .booked-room-warning-msg p:first-child {
+        font-size: 0.5rem;
+        padding: 5px;
+    }
+
+    .booked-room-warning-msg p:first-child i {
+        font-size: xx-small;
+        margin-right: 3px;
+    }
+
+    .booked-room-btns .booked-room-change-package,
+    .booked-room-btns .booked-room-remove-pacakge {
+        font-size: 0.55rem;
+        padding: 8px 9px;
+    }
+}

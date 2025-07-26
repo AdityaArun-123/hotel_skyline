@@ -1,0 +1,191 @@
+.booking-and-cancellation-modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.442);
+}
+
+.booking-and-cancellation-modal-content {
+    width: 50%;
+    height: 80vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1010;
+    transform: translate(-50%, -50%);
+    padding: 30px 25px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.booking-and-cancellation-modal-content section {
+    margin-bottom: 25px;
+}
+
+.booking-and-cancellation-modal-content section h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+
+.booking-and-cancellation-modal-content section li {
+    list-style: none;
+    font-size: 0.95rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #666;
+    line-height: 1.8rem;
+    padding-left: 20px;
+    text-indent: -10px;
+}
+
+.booking-and-cancellation-modal-content section li i {
+    color: #192a56;
+    margin-right: 10px;
+}
+
+.booking-and-cancellation-modal-content table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: separate;
+}
+
+.booking-and-cancellation-modal-content td,
+th {
+    padding: 10px 10px 10px 15px;
+}
+
+.booking-and-cancellation-modal-content th:first-child {
+    border: 2px solid rgb(220, 220, 220);
+    border-top-left-radius: 10px;
+}
+
+.booking-and-cancellation-modal-content th:last-child {
+    border-top: 2px solid rgb(220, 220, 220);
+    border-bottom: 2px solid rgb(220, 220, 220);
+    border-right: 2px solid rgb(220, 220, 220);
+    border-top-right-radius: 10px;
+}
+
+.booking-and-cancellation-modal-content tr:first-child td:first-child {
+    border-left: 2px solid rgb(220, 220, 220);
+    border-right: 2px solid rgb(220, 220, 220);
+}
+
+.booking-and-cancellation-modal-content tr:first-child td:last-child {
+    border-right: 2px solid rgb(220, 220, 220);
+}
+
+.booking-and-cancellation-modal-content tr:last-child td {
+    border-bottom: 2px solid rgb(220, 220, 220);
+    border-top: 2px solid rgb(220, 220, 220);
+}
+
+.booking-and-cancellation-modal-content tr:last-child td:first-child {
+    border-right: 2px solid rgb(220, 220, 220);
+    border-left: 2px solid rgb(220, 220, 220);
+    border-bottom-left-radius: 10px;
+}
+
+.booking-and-cancellation-modal-content tr:last-child td:last-child {
+    border-right: 2px solid rgb(220, 220, 220);
+    border-bottom-right-radius: 10px;
+}
+
+.booking-and-cancellation-modal-content table th,
+td {
+    text-align: left;
+    width: 50%;
+}
+
+.booking-and-cancellation-modal-content table th {
+    text-transform: capitalize;
+    background-color: rgb(243, 244, 247);
+}
+
+.booking-and-cancellation-modal-content table td {
+    color: #666;
+}
+
+@media only screen and (max-width : 1250px) {
+    .booking-and-cancellation-modal-content {
+        width: 55%;
+    }
+
+    .booking-and-cancellation-modal-content section h2 {
+        font-size: 1.4rem;
+    }
+
+    .booking-and-cancellation-modal-content section li {
+        font-size: 0.85rem;
+    }
+}
+
+@media only screen and (max-width : 850px) {
+    .booking-and-cancellation-modal-content {
+        width: 60%;
+        padding: 30px 15px;
+    }
+
+    .booking-and-cancellation-modal-content section h2 {
+        font-size: 1.1rem;
+    }
+
+    .booking-and-cancellation-modal-content section li {
+        font-size: 0.75rem;
+    }
+
+    .booking-and-cancellation-modal-content td,
+    th {
+        padding: 10px 8px;
+        font-size: 0.78rem;
+    }
+}
+
+@media only screen and (max-width : 575px) {
+    .booking-and-cancellation-modal-content {
+        width: 78%;
+    }
+}
+
+@media only screen and (max-width : 440px) {
+    .booking-and-cancellation-modal-content {
+        width: 93%;
+        height: 60vh;
+    }
+
+    .booking-and-cancellation-modal-content section h2 {
+        font-size: 0.8rem;
+        margin-bottom: 5px;
+    }
+
+    .booking-and-cancellation-modal-content section li {
+        font-size: 0.7rem;
+        line-height: 1.5rem;
+    }
+}
+@media only screen and (max-width : 315px) {
+    .booking-and-cancellation-modal-content {
+        width: 93%;
+        height: 60vh;
+        padding: 30px 8px;
+    }
+
+    .booking-and-cancellation-modal-content section h2 {
+        font-size: 0.72rem;
+    }
+
+    .booking-and-cancellation-modal-content section li {
+        font-size: 0.6rem;
+        line-height: 1.2rem;
+    }
+
+    .booking-and-cancellation-modal-content td,
+    th {
+        padding: 10px 4px;
+        font-size: 0.6rem;
+    }
+}

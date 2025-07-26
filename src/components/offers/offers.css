@@ -1,0 +1,215 @@
+.offers-container {
+    width: 100dvw;
+    padding: 30px 15%;
+    background-color: var(--banner-bg-color);
+    display: flex;
+    gap: 8%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.offer-img {
+    width: 190px;
+    height: 90px;
+}
+
+.offer-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.offer-desc .offer-text {
+    font-size: 1.3rem;
+    color: #fff;
+    font-family: paragraphFontStyle;
+    line-height: 2.4rem;
+}
+
+.offer-desc .offer-text span {
+    color: var(--text-primary-color);
+}
+
+.offer-desc .offer-read-more {
+    font-size: 1.2rem;
+    margin-left: 18px;
+    text-decoration: underline solid var(--text-primary-color);
+    text-underline-offset: 5px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.offers-container .book-offer-btn {
+    width: 15%;
+    height: 50px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.offers-container .common-button-2:hover {
+    color: var(--banner-bg-color) !important;
+}
+
+@media only screen and (max-width : 1750px) {
+    br{
+        display: none;
+    }
+    .offers-container .book-offer-btn {
+        font-size: 1.1rem;
+        width: 18%;
+    }
+}
+
+@media only screen and (max-width : 1690px) {
+    .offers-container {
+        padding: 30px 12%;
+        gap: 6%;
+    }
+}
+
+@media only screen and (max-width : 1490px) {
+    .offers-container {
+        padding: 30px 12%;
+        gap: 4%;
+    }
+
+    .offer-img {
+        width: 150px;
+        height: 70px;
+    }
+
+    .offer-desc .offer-text {
+        font-size: 1.15rem;
+        line-height: 2.2rem;
+    }
+}
+
+@media only screen and (max-width : 1285px) {
+    .offer-desc .offer-text {
+        font-size: 1.08rem;
+        line-height: 2rem;
+    }
+
+    .offer-desc .offer-read-more {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width : 1210px) {
+    .offers-container {
+        padding: 30px 7%;
+        gap: 4%;
+    }
+
+}
+
+@media only screen and (max-width : 1005px) {
+    .offers-container {
+        padding: 20px 4.1%;
+    }
+
+    .offer-img {
+        width: 120px;
+        height: 55px;
+    }
+
+    .offer-desc .offer-text {
+        font-size: 0.9rem;
+        line-height: 1.6rem;
+    }
+
+    .offers-container .book-offer-btn {
+        font-size: 0.85rem;
+        height: 40px;
+    }
+
+    .offer-desc .offer-read-more {
+        font-size: 0.98rem;
+    }
+
+    .offers-container .common-button-2,
+    .offers-container .common-button-2:hover {
+        background-color: var(--banner-bg-color) !important;
+        color: var(--text-primary-color) !important;
+        border: 2px solid var(--text-primary-color) !important;
+    }
+
+    .offers-container .common-button-2:hover::after{
+        width: 0;
+        height: 0;
+    }
+}
+
+@media only screen and (max-width : 840px) {
+    .offers-container {
+        padding: 20px 7%;
+        flex-wrap: wrap;
+        row-gap: 15px;
+    }
+
+    .offer-img {
+        width: 120px;
+        height: 60px;
+    }
+
+    .offer-desc .offer-text {
+        font-size: 1.1rem;
+        line-height: 1.9rem;
+    }
+
+    .offers-container .book-offer-btn {
+        font-size: 1.1rem;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width : 700px) {
+
+    .offer-desc .offer-text {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}
+
+@media only screen and (max-width : 565px) {
+    .offers-container {
+        padding: 20px 4%;
+        row-gap: 12px;
+    }
+
+    .offer-desc .offer-read-more {
+        display: block;
+        margin-left: 0;
+        margin-top: 5px;
+    }
+
+    .offer-img {
+        width: 100px;
+    }
+
+    .offer-desc .offer-text {
+        font-size: 1rem;
+    }
+
+    .offers-container .book-offer-btn {
+        margin-top: 5px;
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width : 360px) {
+    .offers-container {
+        padding: 20px 8%;
+    }
+
+    .offer-desc .offer-text {
+        font-size: 0.9rem;
+    }
+
+    .offers-container .book-offer-btn {
+        margin-top: 18px;
+        width: 120px;
+        height: 35px;
+        font-size: 0.9rem;
+    }
+}

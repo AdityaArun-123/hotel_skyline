@@ -1,0 +1,62 @@
+[
+    {
+        "id" : 1,
+        "spa_service_name" : "Massage Therapy",
+        "spa_service_img" : "/Gallery/Spa Images/massage therapy spa img.jpg",
+        "spa_service_desc" : "This type of spa service involves the manipulation of soft tissues in the body to promote relaxation and relieve muscle tension."
+    },
+    {
+        "id" : 2,
+        "spa_service_name" : "Facials",
+        "spa_service_img" : "/Gallery/Spa Images/facials spa img.jpg",
+        "spa_service_desc" : "Facials are a popular spa service that involves the cleansing, exfoliation, and nourishment of the skin on the face.."
+    },
+    {
+        "id" : 3,
+        "spa_service_name" : "Body Treatments",
+        "spa_service_img" : "/Gallery/Spa Images/body treatment spa img.jpg",
+        "spa_service_desc" : "Body treatments often involve exfoliation, detoxification, and moisturization of the skin on the entire body."
+    },
+    {
+        "id" : 4,
+        "spa_service_name" : "Nail Services",
+        "spa_service_img" : "/Gallery/Salon Images/nail services salon img.jpeg",
+        "spa_service_desc" : "These services focus on the care and maintenance of the nails, as well as providing a relaxing and pampering experience."
+    },
+    {
+        "id" : 5,
+        "spa_service_name" : "Hair Services",
+        "spa_service_img" : "/Gallery/Salon Images/hair services salon img.jpg",
+        "spa_service_desc" : "Some spas also offer hair services, such as cuts, styling, coloring, and treatments."
+    },
+    {
+        "id" : 6,
+        "spa_service_name" : "Waxing",
+        "spa_service_img" : "/Gallery/Spa Images/waxing spa img.jpeg",
+        "spa_service_desc" : "Waxing is a popular spa service for removing unwanted hair from various parts of the body."
+    },
+    {
+        "id" : 7,
+        "spa_service_name" : "Aromatherapy",
+        "spa_service_img" : "/Gallery/Spa Images/Aromatherapy spa img.jpeg",
+        "spa_service_desc" : "Aromatherapy is a holistic spa service that uses essential oils to promote relaxation, improve mood, and enhance overall well-being."
+    },
+    {
+        "id" : 8,
+        "spa_service_name" : "Saunas and Steam Rooms",
+        "spa_service_img" : "/Gallery/Spa Images/Saunas and Steam Rooms spa img.jpg",
+        "spa_service_desc" : "These services involve sitting in a heated room or using steam to promote sweating and release toxins from the body."
+    },
+    {
+        "id" : 9,
+        "spa_service_name" : "Yoga and Meditation",
+        "spa_service_img" : "/Gallery/Spa Images/Yoga and Meditation spa img.jpg",
+        "spa_service_desc" : "These activities can help reduce stress, improve flexibility and strength, and promote overall mind-body balance."
+    },
+    {
+        "id" : 10,
+        "spa_service_name" : "Medical Spa Services",
+        "spa_service_img" : "/Gallery/Spa Images/medical spa.jpg",
+        "spa_service_desc" : "Medical spas offer services that are more medically-focused, such as Botox injections, laser treatments, and chemical peels."
+    }
+]
